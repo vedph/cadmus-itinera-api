@@ -261,6 +261,98 @@
           "value": "note"
         }
       ]
+    },
+    {
+      "id": "cod-binding-board-materials@en",
+      "entries": [
+        {
+          "id": "wood",
+          "value": "legno"
+        },
+        {
+          "id": "card",
+          "value": "cartone"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "cod-binding-cover-materials@en",
+      "entries": [
+        {
+          "id": "skin",
+          "value": "pelle"
+        },
+        {
+          "id": "tanned-skin",
+          "value": "cuoio"
+        },
+        {
+          "id": "parchment",
+          "value": "membrana"
+        },
+        {
+          "id": "velvet",
+          "value": "velluto"
+        },
+        {
+          "id": "textile",
+          "value": "tessuto"
+        },
+        {
+          "id": "paper",
+          "value": "carta"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "doc-reference-types@en",
+      "entries": [
+        {
+          "id": "biblio",
+          "value": "bibliography"
+        },
+        {
+          "id": "cite",
+          "value": "citation"
+        },
+        {
+          "id": "ms",
+          "value": "manuscript"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "physical-size-units@en",
+      "entries": [
+        {
+          "id": "cm",
+          "value": "cm"
+        },
+        {
+          "id": "mm",
+          "value": "mm"
+        }
+      ]
     }
   ],
   "seed": {
