@@ -144,7 +144,7 @@
           "sortKey": "q"
         },
         {
-          "typeId": "it.vedph.codicology.loci",
+          "typeId": "it.vedph.itinera.cod-loci",
           "name": "loci",
           "description": "Loci critici.",
           "colorKey": "C880C4",
@@ -152,7 +152,7 @@
           "sortKey": "r"
         },
         {
-          "typeId": "it.vedph.codicology.poem-ranges",
+          "typeId": "it.vedph.itinera.cod-poem-ranges",
           "name": "poem ranges",
           "description": "Petrarch's poems ranges.",
           "colorKey": "C880E4",
@@ -184,7 +184,85 @@
       "id": "item-index-reader.mysql"
     }
   },
-  "thesauri": [],
+  "thesauri": [
+    {
+      "id": "model-types@en",
+      "entries": [
+        {
+          "id": "it.vedph.codicology.bindings",
+          "value": "bindings"
+        },
+        {
+          "id": "it.vedph.codicology.contents",
+          "value": "contents"
+        },
+        {
+          "id": "it.vedph.codicology.decorations",
+          "value": "decorations"
+        },
+        {
+          "id": "it.vedph.codicology.edits",
+          "value": "edits"
+        },
+        {
+          "id": "it.vedph.codicology.hands",
+          "value": "hands"
+        },
+        {
+          "id": "it.vedph.codicology.layouts",
+          "value": "layouts"
+        },
+        {
+          "id": "it.vedph.codicology.material-dsc",
+          "value": "material"
+        },
+        {
+          "id": "it.vedph.codicology.numberings",
+          "value": "numberings"
+        },
+        {
+          "id": "it.vedph.codicology.quires",
+          "value": "quires"
+        },
+        {
+          "id": "it.vedph.codicology.quire-labels",
+          "value": "quire-labels"
+        },
+        {
+          "id": "it.vedph.codicology.shelfmarks",
+          "value": "shelfmarks"
+        },
+        {
+          "id": "it.vedph.codicology.watermarks",
+          "value": "watermarks"
+        },
+        {
+          "id": "it.vedph.ext-bibliography",
+          "value": "bibliography"
+        },
+        {
+          "id": "it.vedph.historical-events",
+          "value": "events"
+        },
+        {
+          "id": "it.vedph.itinera.cod-loci",
+          "value": "loci"
+        },
+        {
+          "id": "it.vedph.itinera.cod-poem-ranges",
+          "value": "poem ranges"
+        },
+        {
+          "id": "it.vedph.metadata",
+          "value": "metadata"
+        },
+        {
+          "id": "it.vedph.note",
+          "value": "note"
+        }
+      ]
+    }
+  ],
   "seed": {
     "options": {
       "seed": 1,
@@ -192,7 +270,62 @@
       "partRoles": [],
       "fragmentRoles": []
     },
-    "partSeeders": [],
+    "partSeeders": [
+      {
+        "id": "seed.it.vedph.codicology.bindings"
+      },
+      {
+        "id": "seed.it.vedph.codicology.contents"
+      },
+      {
+        "id": "seed.it.vedph.codicology.decorations"
+      },
+      {
+        "id": "seed.it.vedph.codicology.edits"
+      },
+      {
+        "id": "seed.it.vedph.codicology.hands"
+      },
+      {
+        "id": "seed.it.vedph.codicology.layouts"
+      },
+      {
+        "id": "seed.it.vedph.codicology.material-dsc"
+      },
+      {
+        "id": "seed.it.vedph.codicology.numberings"
+      },
+      {
+        "id": "seed.it.vedph.codicology.quires"
+      },
+      {
+        "id": "seed.it.vedph.codicology.quire-labels"
+      },
+      {
+        "id": "seed.it.vedph.codicology.shelfmarks"
+      },
+      {
+        "id": "seed.it.vedph.codicology.watermarks"
+      },
+      {
+        "id": "seed.it.vedph.ext-bibliography"
+      },
+      {
+        "id": "seed.it.vedph.historical-events"
+      },
+      {
+        "id": "seed.it.vedph.itinera.cod-loci"
+      },
+      {
+        "id": "seed.it.vedph.itinera.cod-poem-ranges"
+      },
+      {
+        "id": "seed.it.vedph.metadata"
+      },
+      {
+        "id": "seed.it.vedph.note"
+      }
+    ],
     "fragmentSeeders": []
   }
 }
