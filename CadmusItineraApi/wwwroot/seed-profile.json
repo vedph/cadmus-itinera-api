@@ -889,7 +889,7 @@
         },
         {
           "id": "lat-vlg",
-          "value": "latino.volgare"
+          "value": "latino volgare"
         },
         {
           "id": "spa",
@@ -972,6 +972,346 @@
       ]
     },
     {
+      "id": "cod-endleaf-materials@en",
+      "entries": [
+        {
+          "id": "parchment",
+          "value": "membr."
+        },
+        {
+          "id": "paper",
+          "value": "cart."
+        }
+      ]
+    },
+    {
+      "id": "cod-endleaf-types@en",
+      "entries": [
+        {
+          "id": "front",
+          "value": "ant."
+        },
+        {
+          "id": "back",
+          "value": "post."
+        }
+      ]
+    },
+    {
+      "id": "cod-hand-colors@en",
+      "entries": [
+        {
+          "id": "dark-brown",
+          "value": "bruno scuro"
+        },
+        {
+          "id": "lite-brown",
+          "value": "bruno chiaro"
+        },
+        {
+          "id": "red",
+          "value": "rosso"
+        },
+        {
+          "id": "blue",
+          "value": "blu"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-hand-scripts@en",
+      "entries": [
+        {
+          "id": "got",
+          "value": "gotica"
+        },
+        {
+          "id": "sgt",
+          "value": "semigotica"
+        },
+        {
+          "id": "mic",
+          "value": "minuscola canc."
+        },
+        {
+          "id": "mea",
+          "value": "mercantesca a."
+        },
+        {
+          "id": "crh",
+          "value": "corsiva um."
+        },
+        {
+          "id": "ant",
+          "value": "antiqua"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-hand-sign-types@en",
+      "entries": [
+        {
+          "id": "letter",
+          "value": "lettera"
+        },
+        {
+          "id": "punct",
+          "value": "interpunzione"
+        },
+        {
+          "id": "abbr",
+          "value": "abbreviazione"
+        },
+        {
+          "id": "nex",
+          "value": "nesso"
+        },
+        {
+          "id": "ligature",
+          "value": "legamento"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-hand-subscription-languages@en",
+      "entries": [
+        {
+          "id": "ita",
+          "value": "italiano"
+        },
+        {
+          "id": "lat",
+          "value": "latino"
+        },
+        {
+          "id": "grc",
+          "value": "greco"
+        },
+        {
+          "id": "lat-vlg",
+          "value": "latino volgare"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-hand-typologies@en",
+      "entries": [
+        {
+          "id": "text",
+          "value": "testo"
+        },
+        {
+          "id": "note",
+          "value": "postille"
+        },
+        {
+          "id": "comment",
+          "value": "commento"
+        },
+        {
+          "id": "correction",
+          "value": "correzioni"
+        },
+        {
+          "id": "integration",
+          "value": "integrazione"
+        },
+        {
+          "id": "rubric",
+          "value": "rubriche"
+        },
+        {
+          "id": "para",
+          "value": "segni paragrafematici"
+        },
+        {
+          "id": "title",
+          "value": "titoli correnti"
+        },
+        {
+          "id": "attention",
+          "value": "segni di attenzione"
+        },
+        {
+          "id": "index",
+          "value": "indici"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-layout-ruling-techniques@en",
+      "entries": [
+        {
+          "id": "dry",
+          "value": "a secco"
+        },
+        {
+          "id": "color",
+          "value": "a colore"
+        },
+        {
+          "id": "mine",
+          "value": "a mina di piombo"
+        },
+        {
+          "id": "ink",
+          "value": "a inchiostro"
+        },
+        {
+          "id": "fold",
+          "value": "per piegatura"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-numbering-colors@en",
+      "entries": [
+        {
+          "id": "dark-brown",
+          "value": "bruno scuro"
+        },
+        {
+          "id": "lite-brown",
+          "value": "bruno chiaro"
+        },
+        {
+          "id": "red",
+          "value": "rosso"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "cod-numbering-positions@en",
+      "entries": [
+        {
+          "id": "mse",
+          "value": "marg.sup.est."
+        },
+        {
+          "id": "msc",
+          "value": "marg.sup.cen."
+        },
+        {
+          "id": "msi",
+          "value": "marg.sup.int."
+        },
+        {
+          "id": "mie",
+          "value": "marg.inf.est."
+        },
+        {
+          "id": "mic",
+          "value": "marg.inf.cen."
+        },
+        {
+          "id": "mii",
+          "value": "marg.inf.int."
+        },
+        {
+          "id": "is",
+          "value": "intercol.sup."
+        },
+        {
+          "id": "ii",
+          "value": "intercol.inf."
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "cod-numbering-systems@en",
+      "entries": [
+        {
+          "id": "arabic",
+          "value": "arabo"
+        },
+        {
+          "id": "roman",
+          "value": "romano"
+        },
+        {
+          "id": "roman-arabic",
+          "value": "romano+arabo"
+        },
+        {
+          "id": "mix",
+          "value": "misto"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
+      "id": "cod-numbering-techniques@en",
+      "entries": [
+        {
+          "id": "ink",
+          "value": "inchiostro"
+        },
+        {
+          "id": "lapis",
+          "value": "lapis"
+        },
+        {
+          "id": "mechanic",
+          "value": "n. meccanico"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        },
+        {
+          "id": "-",
+          "value": "---"
+        }
+      ]
+    },
+    {
       "id": "cod-quiresig-positions@en",
       "entries": [
         {
@@ -1022,6 +1362,90 @@
         {
           "id": "other",
           "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-shelfmark-tags@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "previous",
+          "value": "prec."
+        }
+      ]
+    },
+    {
+      "id": "cod-unit-formats@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "infolio",
+          "value": "in-folio"
+        },
+        {
+          "id": "in4",
+          "value": "in-4°"
+        },
+        {
+          "id": "in8",
+          "value": "in-8°"
+        },
+        {
+          "id": "in16",
+          "value": "in-16°"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "cod-unit-materials@en",
+      "entries": [
+        {
+          "id": "parchment",
+          "value": "membr."
+        },
+        {
+          "id": "paper",
+          "value": "cart."
+        },
+        {
+          "id": "mix",
+          "value": "misto"
+        }
+      ]
+    },
+    {
+      "id": "cod-unit-states@en",
+      "entries": [
+        {
+          "id": "s1",
+          "value": "ottimo"
+        },
+        {
+          "id": "s2",
+          "value": "buono"
+        },
+        {
+          "id": "s3",
+          "value": "discreto"
+        },
+        {
+          "id": "s4",
+          "value": "precario"
+        },
+        {
+          "id": "s5",
+          "value": "pessimo"
         }
       ]
     },
