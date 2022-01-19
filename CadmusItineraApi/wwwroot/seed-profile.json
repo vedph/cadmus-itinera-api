@@ -224,6 +224,104 @@
           "sortKey": "g"
         }
       ]
+    },
+    {
+      "id": "work",
+      "label": "work",
+      "description": "A literary work.",
+      "colorKey": "B76C99",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.itinera.literary-work-info",
+          "name": "info",
+          "description": "Essential work information.",
+          "colorKey": "C0AFF0",
+          "groupKey": "general",
+          "sortKey": "a"
+        },
+        {
+          "typeId": "it.vedph.chronotopes",
+          "name": "chronotopes",
+          "description": "A list of place/date indications.",
+          "colorKey": "C0AF92",
+          "groupKey": "general",
+          "sortKey": "b"
+        },
+        {
+          "typeId": "it.vedph.metadata",
+          "name": "meta",
+          "description": "Generic work's metadata.",
+          "colorKey": "C0AF92",
+          "groupKey": "general",
+          "sortKey": "c"
+        },
+        {
+          "typeId": "it.vedph.external-ids",
+          "name": "IDs",
+          "description": "Work's identifiers.",
+          "colorKey": "D4E5FB",
+          "groupKey": "general",
+          "sortKey": "d"
+        },
+        {
+          "typeId": "it.vedph.itinera.letter-info",
+          "name": "letter",
+          "description": "Letter's information.",
+          "colorKey": "D4E5FB",
+          "groupKey": "general",
+          "sortKey": "e"
+        },
+        {
+          "typeId": "it.vedph.itinera.referenced-texts",
+          "name": "ref-texts",
+          "description": "Texts referenced by this work.",
+          "colorKey": "D4E5FB",
+          "groupKey": "relations",
+          "sortKey": "f"
+        },
+        {
+          "typeId": "it.vedph.itinera.related-persons",
+          "roleId": "cited",
+          "name": "cited-persons",
+          "description": "Persons cited by this work.",
+          "colorKey": "D4E5FB",
+          "groupKey": "relations",
+          "sortKey": "g"
+        },
+        {
+          "typeId": "it.vedph.itinera.related-persons",
+          "roleId": "recipients",
+          "name": "recipent-persons",
+          "description": "Persons this work is addressed to.",
+          "colorKey": "D4E5FB",
+          "groupKey": "relations",
+          "sortKey": "h"
+        },
+        {
+          "typeId": "it.vedph.itinera.witnesses",
+          "name": "witnesses",
+          "description": "Manuscript witnesses for this work.",
+          "colorKey": "20B2AA",
+          "groupKey": "references",
+          "sortKey": "i"
+        },
+        {
+          "typeId": "it.vedph.ext-bibliography",
+          "name": "bibliography",
+          "description": "Bibliography.",
+          "colorKey": "20B2AA",
+          "groupKey": "references",
+          "sortKey": "j"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A free text note.",
+          "colorKey": "B0A0F8",
+          "groupKey": "misc",
+          "sortKey": "k"
+        }
+      ]
     }
   ],
   "flags": [
@@ -252,6 +350,10 @@
     {
       "id": "model-types@en",
       "entries": [
+        {
+          "id": "it.vedph.chronotopes",
+          "value": "chronotopes"
+        },
         {
           "id": "it.vedph.codicology.bindings",
           "value": "bindings"
@@ -321,12 +423,32 @@
           "value": "poem ranges"
         },
         {
+          "id": "it.vedph.itinera.letter-info",
+          "value": "letter info"
+        },
+        {
+          "id": "it.vedph.itinera.literary-work-info",
+          "value": "work info"
+        },
+        {
           "id": "it.vedph.itinera.person-info",
           "value": "person info"
         },
         {
           "id": "it.vedph.itinera.person-works",
           "value": "person works"
+        },
+        {
+          "id": "it.vedph.itinera.referenced-texts",
+          "value": "ref-texts"
+        },
+        {
+          "id": "it.vedph.itinera.related-persons",
+          "value": "rel-persons"
+        }
+        {
+          "id": "it.vedph.itinera.witnesses",
+          "value": "witnesses"
         },
         {
           "id": "it.vedph.metadata",
@@ -1573,6 +1695,9 @@
     },
     "partSeeders": [
       {
+        "id": "seed.it.vedph.chronotopes"
+      },
+      {
         "id": "seed.it.vedph.codicology.bindings"
       },
       {
@@ -1624,10 +1749,25 @@
         "id": "seed.it.vedph.itinera.cod-poem-ranges"
       },
       {
+        "id": "seed.it.vedph.itinera.letter-info"
+      },
+      {
+        "id": "seed.it.vedph.itinera.literary-work-info"
+      },
+      {
         "id": "seed.it.vedph.itinera.person-info"
       },
       {
         "id": "seed.it.vedph.itinera.person-works"
+      },
+      {
+        "id": "seed.it.vedph.itinera.referenced-texts"
+      },
+      {
+        "id": "seed.it.vedph.itinera.related-persons"
+      },
+      {
+        "id": "seed.it.vedph.itinera.witnesses"
       },
       {
         "id": "seed.it.vedph.metadata"
