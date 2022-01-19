@@ -160,6 +160,70 @@
           "sortKey": "s"
         }
       ]
+    },
+    {
+      "id": "person",
+      "label": "person",
+      "description": "Person.",
+      "colorKey": "226666",
+      "partDefinitions": [
+        {
+          "typeId": "it.vedph.itinera.person-info",
+          "name": "info",
+          "description": "Essential bio information.",
+          "colorKey": "D4E5FB",
+          "groupKey": "general",
+          "sortKey": "a"
+        },
+        {
+          "typeId": "it.vedph.names",
+          "name": "names",
+          "description": "Person's name(s).",
+          "colorKey": "D4E5FB",
+          "groupKey": "general",
+          "sortKey": "b"
+        },
+        {
+          "typeId": "it.vedph.external-ids",
+          "name": "IDs",
+          "description": "Person's identifiers.",
+          "colorKey": "D4E5FB",
+          "groupKey": "general",
+          "sortKey": "c"
+        },
+        {
+          "typeId": "it.vedph.historical-events",
+          "name": "events",
+          "description": "Biographic events.",
+          "colorKey": "D4E5FB",
+          "groupKey": "bio",
+          "sortKey": "d"
+        },
+        {
+          "typeId": "it.vedph.itinera.person-works",
+          "name": "works",
+          "description": "Person's works.",
+          "colorKey": "D4E5FB",
+          "groupKey": "bio",
+          "sortKey": "e"
+        },
+        {
+          "typeId": "it.vedph.ext-bibliography",
+          "name": "bibliography",
+          "description": "Bibliography.",
+          "colorKey": "20B2AA",
+          "groupKey": "references",
+          "sortKey": "f"
+        },
+        {
+          "typeId": "it.vedph.note",
+          "name": "note",
+          "description": "A free text note.",
+          "colorKey": "B0A0F8",
+          "groupKey": "misc",
+          "sortKey": "g"
+        }
+      ]
     }
   ],
   "flags": [
@@ -241,6 +305,10 @@
           "value": "bibliography"
         },
         {
+          "id": "it.vedph.external-ids",
+          "value": "identifiers"
+        },
+        {
           "id": "it.vedph.historical-events",
           "value": "events"
         },
@@ -253,8 +321,20 @@
           "value": "poem ranges"
         },
         {
+          "id": "it.vedph.itinera.person-info",
+          "value": "person info"
+        },
+        {
+          "id": "it.vedph.itinera.person-works",
+          "value": "person works"
+        },
+        {
           "id": "it.vedph.metadata",
           "value": "metadata"
+        },
+        {
+          "id": "it.vedph.names",
+          "value": "names"
         },
         {
           "id": "it.vedph.note",
@@ -1532,6 +1612,9 @@
         "id": "seed.it.vedph.ext-bibliography"
       },
       {
+        "id": "seed.it.vedph.external-ids"
+      },
+      {
         "id": "seed.it.vedph.historical-events"
       },
       {
@@ -1541,7 +1624,16 @@
         "id": "seed.it.vedph.itinera.cod-poem-ranges"
       },
       {
+        "id": "seed.it.vedph.itinera.person-info"
+      },
+      {
+        "id": "seed.it.vedph.itinera.person-works"
+      },
+      {
         "id": "seed.it.vedph.metadata"
+      },
+      {
+        "id": "seed.it.vedph.names"
       },
       {
         "id": "seed.it.vedph.note"
