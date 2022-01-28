@@ -9,3 +9,7 @@ docker build . -t vedph2020/cadmus_itinera_api:2.0.0 -t vedph2020/cadmus_itinera
 ```
 
 (replace with the current version).
+
+## History
+
+- 2022-01-20: updated version numbers after minor model changes.
