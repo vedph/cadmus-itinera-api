@@ -611,10 +611,6 @@
         {
           "id": "excerpts",
           "value": "estratti"
-        },
-        {
-          "id": "-",
-          "value": "---"
         }
       ]
     },
@@ -624,10 +620,6 @@
         {
           "id": "illuminator",
           "value": "miniatore"
-        },
-        {
-          "id": "painter",
-          "value": "pittore"
         },
         {
           "id": "workshop",
@@ -680,6 +672,14 @@
       "id": "cod-decoration-element-flags@en",
       "entries": [
         {
+          "id": "pag-inc.blank",
+          "value": "spazi bianchi"
+        },
+        {
+          "id": "pag-inc.sketch",
+          "value": "bozza"
+        },
+        {
           "id": "pag-inc.ill",
           "value": "illustrazione"
         },
@@ -692,30 +692,82 @@
           "value": "iniziali"
         },
         {
+          "id": "ill.blank",
+          "value": "spazio bianco"
+        },
+        {
+          "id": "ill.sketch",
+          "value": "bozza"
+        },
+        {
+          "id": "orn.blank",
+          "value": "spazio bianco"
+        },
+        {
+          "id": "orn.sketch",
+          "value": "bozza"
+        },
+        {
+          "id": "ini-pla.blank",
+          "value": "spazio bianco"
+        },
+        {
+          "id": "ini-pla.sketch",
+          "value": "bozza"
+        },
+        {
           "id": "ini-pla.guide",
           "value": "lettere guida"
+        },
+        {
+          "id": "ini-wat.blank",
+          "value": "spazio bianco"
+        },
+        {
+          "id": "ini-wat.sketch",
+          "value": "bozza"
         },
         {
           "id": "ini-wat.guide",
           "value": "lettere guida"
         },
         {
+          "id": "ini-orn.blank",
+          "value": "spazio bianco"
+        },
+        {
+          "id": "ini-orn.sketch",
+          "value": "bozza"
+        },
+        {
           "id": "ini-orn.guide",
           "value": "lettere guida"
         },
         {
+          "id": "ini-fig.blank",
+          "value": "spazio bianco"
+        },
+        {
+          "id": "ini-fig.sketch",
+          "value": "bozza"
+        },
+        {
           "id": "ini-fig.guide",
           "value": "lettere guida"
+        },
+        {
+          "id": "par.blank",
+          "value": "spazio bianco"
+        },
+        {
+          "id": "par.sketch",
+          "value": "bozza"
         }
       ]
     },
     {
       "id": "cod-decoration-element-gildings@en",
       "entries": [
-        {
-          "id": "brush",
-          "value": "pennello"
-        },
         {
           "id": "leaf",
           "value": "foglia"
@@ -751,11 +803,11 @@
         },
         {
           "id": "ill.margin-t",
-          "value": "margine superiore"
+          "value": "margine sup."
         },
         {
           "id": "ill.foot",
-          "value": "bas de page"
+          "value": "margine inf."
         },
         {
           "id": "ill.other",
@@ -764,6 +816,10 @@
         {
           "id": "ini-pla.aligned",
           "value": "allineata"
+        },
+        {
+          "id": "ini-pla.inside",
+          "value": "annegata"
         },
         {
           "id": "ini-pla.hanging",
@@ -778,12 +834,20 @@
           "value": "sporgente"
         },
         {
+          "id": "ini-wat.inside",
+          "value": "annegata"
+        },
+        {
           "id": "ini-orn.aligned",
           "value": "allineata"
         },
         {
           "id": "ini-orn.hanging",
           "value": "sporgente"
+        },
+        {
+          "id": "ini-orn.inside",
+          "value": "annegata"
         },
         {
           "id": "ini-fig.aligned",
@@ -794,15 +858,15 @@
           "value": "sporgente"
         },
         {
+          "id": "ini-fig.inside",
+          "value": "annegata"
+        },
+        {
           "id": "orn.-",
           "value": ""
         },
         {
           "id": "par.-",
-          "value": ""
-        },
-        {
-          "id": "ext.-",
           "value": ""
         }
       ]
@@ -853,10 +917,6 @@
           "value": "pagina incipitaria"
         },
         {
-          "id": "pag-dec",
-          "value": "pagina decorata"
-        },
-        {
           "id": "ill",
           "value": "illustrazione"
         },
@@ -878,7 +938,7 @@
         },
         {
           "id": "ini-fig",
-          "value": "iniziali - con figura"
+          "value": "iniziali istoriate"
         },
         {
           "id": "par",
@@ -887,24 +947,12 @@
         {
           "id": "wsp",
           "value": "spazi bianchi"
-        },
-        {
-          "id": "ext",
-          "value": "immagini estemporanee"
         }
       ]
     },
     {
       "id": "cod-decoration-element-typologies@en",
       "entries": [
-        {
-          "id": "pag-dec.adorned",
-          "value": "ornata"
-        },
-        {
-          "id": "pag-dec.illustrated",
-          "value": "illustrata"
-        },
         {
           "id": "ill.miniature",
           "value": "miniatura"
@@ -918,24 +966,28 @@
           "value": "tabellare"
         },
         {
-          "id": "ill.field",
-          "value": "campo aperto"
+          "id": "ill.papyrus",
+          "value": "papyrus style"
         },
         {
-          "id": "orn.frieze",
-          "value": "fregio"
+          "id": "orn.frieze-fig",
+          "value": "fregio con figura"
         },
         {
-          "id": "orn.frame",
-          "value": "cornice"
-        },
-        {
-          "id": "orn.grotesque",
-          "value": "grottesca"
+          "id": "orn.frieze-orn",
+          "value": "fregio ornato"
         },
         {
           "id": "orn.coat",
           "value": "stemma"
+        },
+        {
+          "id": "orn.tab",
+          "value": "tabula ansata"
+        },
+        {
+          "id": "orn.other",
+          "value": "altro"
         },
         {
           "id": "ini-orn.zoomrp",
@@ -970,14 +1022,6 @@
           "value": "altro"
         },
         {
-          "id": "ini-fig.stained",
-          "value": "istoriata"
-        },
-        {
-          "id": "ini-fig.figurative",
-          "value": "figurata"
-        },
-        {
           "id": "par.run-heads",
           "value": "titoli correnti"
         },
@@ -1003,16 +1047,12 @@
       "id": "cod-decoration-flags@en",
       "entries": [
         {
-          "id": "original",
-          "value": "originale"
+          "id": "not-original",
+          "value": "non originale"
         },
         {
-          "id": "unitary",
-          "value": "unitaria"
-        },
-        {
-          "id": "complete",
-          "value": "completa"
+          "id": "incomplete",
+          "value": "incompleta"
         }
       ]
     },
@@ -1020,16 +1060,40 @@
       "id": "cod-decoration-type-hidden@en",
       "entries": [
         {
-          "id": "",
-          "value": ""
+          "id": "pag-inc",
+          "value": "typologies positions techniques tools lineHeight"
         },
         {
-          "id": "",
-          "value": ""
+          "id": "ill",
+          "value": "lineHeight"
         },
         {
-          "id": "",
-          "value": ""
+          "id": "orn",
+          "value": "subject textRelation lineHeight"
+        },
+        {
+          "id": "ini-pla",
+          "value": "gildings typologies subject textRelation"
+        },
+        {
+          "id": "ini-wat",
+          "value": "gildings typologies subject textRelation"
+        },
+        {
+          "id": "ini-orn",
+          "value": "textRelation"
+        },
+        {
+          "id": "ini-fig",
+          "value": "typologies"
+        },
+        {
+          "id": "par",
+          "value": "gildings techniques subject textRelation lineHeight"
+        },
+        {
+          "id": "wsp",
+          "value": "colors gildings typologies positions techniques subject textRelation tools lineHeight"
         }
       ]
     },
@@ -1061,6 +1125,10 @@
     {
       "id": "cod-edit-languages@en",
       "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
         {
           "id": "eng",
           "value": "inglese"
@@ -1166,6 +1234,10 @@
         {
           "id": "index",
           "value": "indici"
+        },
+        {
+          "id": "drawing",
+          "value": "disegno"
         },
         {
           "id": "other",
@@ -1361,8 +1433,25 @@
       ]
     },
     {
+      "id": "cod-layout-counts@en",
+      "entries": [
+        {
+          "id": "rr",
+          "value": "righe"
+        },
+        {
+          "id": "ll",
+          "value": "linee"
+        }
+      ]
+    },
+    {
       "id": "cod-layout-ruling-techniques@en",
       "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
         {
           "id": "dry",
           "value": "a secco"
@@ -1407,10 +1496,6 @@
         {
           "id": "other",
           "value": "altro"
-        },
-        {
-          "id": "-",
-          "value": "---"
         }
       ]
     },
@@ -1452,10 +1537,6 @@
         {
           "id": "other",
           "value": "altro"
-        },
-        {
-          "id": "-",
-          "value": "---"
         }
       ]
     },
@@ -1481,10 +1562,6 @@
         {
           "id": "other",
           "value": "altro"
-        },
-        {
-          "id": "-",
-          "value": "---"
         }
       ]
     },
@@ -1506,10 +1583,6 @@
         {
           "id": "other",
           "value": "altro"
-        },
-        {
-          "id": "-",
-          "value": "---"
         }
       ]
     },
@@ -1655,6 +1728,10 @@
       "id": "doc-reference-types@en",
       "entries": [
         {
+          "id": "-",
+          "value": "---"
+        },
+        {
           "id": "biblio",
           "value": "bibliography"
         },
@@ -1667,8 +1744,8 @@
           "value": "manuscript"
         },
         {
-          "id": "-",
-          "value": "---"
+          "id": "arch",
+          "value": "archive doc."
         }
       ]
     },
