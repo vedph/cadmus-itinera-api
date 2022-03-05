@@ -64,28 +64,12 @@
           "sortKey": "g"
         },
         {
-          "typeId": "it.vedph.codicology.quires",
-          "name": "quires",
-          "description": "Quires.",
-          "colorKey": "D4F672",
-          "groupKey": "material",
-          "sortKey": "h"
-        },
-        {
-          "typeId": "it.vedph.codicology.quire-labels",
+          "typeId": "it.vedph.codicology.sheet-labels",
           "name": "quire-labels",
           "description": "Quires labels.",
           "colorKey": "D4F682",
           "groupKey": "material",
-          "sortKey": "i"
-        },
-        {
-          "typeId": "it.vedph.codicology.numberings",
-          "name": "numberings",
-          "description": "Numbering(s).",
-          "colorKey": "8047DD",
-          "groupKey": "material",
-          "sortKey": "j"
+          "sortKey": "h"
         },
         {
           "typeId": "it.vedph.codicology.material-dsc",
@@ -93,7 +77,7 @@
           "description": "Material description.",
           "colorKey": "989796",
           "groupKey": "material",
-          "sortKey": "k"
+          "sortKey": "i"
         },
         {
           "typeId": "it.vedph.codicology.watermarks",
@@ -101,15 +85,15 @@
           "description": "Watermarks.",
           "colorKey": "82DCCA",
           "groupKey": "material",
-          "sortKey": "l"
+          "sortKey": "j"
         },
         {
           "typeId": "it.vedph.codicology.contents",
           "name": "contents",
-          "description": "Contents: text and decoration.",
+          "description": "Contents: text.",
           "colorKey": "508B5E",
           "groupKey": "content",
-          "sortKey": "m"
+          "sortKey": "k"
         },
         {
           "typeId": "it.vedph.codicology.layouts",
@@ -117,7 +101,7 @@
           "description": "Text layouts.",
           "colorKey": "72EAF7",
           "groupKey": "content",
-          "sortKey": "n"
+          "sortKey": "l"
         },
         {
           "typeId": "it.vedph.codicology.decorations",
@@ -125,7 +109,7 @@
           "description": "Decorations.",
           "colorKey": "4D5EF7",
           "groupKey": "content",
-          "sortKey": "o"
+          "sortKey": "m"
         },
         {
           "typeId": "it.vedph.codicology.hands",
@@ -133,7 +117,7 @@
           "description": "Hands.",
           "colorKey": "F5C2B1",
           "groupKey": "content",
-          "sortKey": "p"
+          "sortKey": "n"
         },
         {
           "typeId": "it.vedph.codicology.edits",
@@ -141,7 +125,7 @@
           "description": "Supplementary edits on text.",
           "colorKey": "F5C2C1",
           "groupKey": "content",
-          "sortKey": "q"
+          "sortKey": "o"
         },
         {
           "typeId": "it.vedph.itinera.cod-loci",
@@ -149,7 +133,7 @@
           "description": "Loci critici.",
           "colorKey": "C880C4",
           "groupKey": "itinera",
-          "sortKey": "r"
+          "sortKey": "p"
         },
         {
           "typeId": "it.vedph.itinera.cod-poem-ranges",
@@ -383,16 +367,8 @@
           "value": "material"
         },
         {
-          "id": "it.vedph.codicology.numberings",
-          "value": "numberings"
-        },
-        {
-          "id": "it.vedph.codicology.quires",
-          "value": "quires"
-        },
-        {
-          "id": "it.vedph.codicology.quire-labels",
-          "value": "quire-labels"
+          "id": "it.vedph.codicology.sheet-labels",
+          "value": "sheet labels"
         },
         {
           "id": "it.vedph.codicology.shelfmarks",
@@ -1796,13 +1772,7 @@
         "id": "seed.it.vedph.codicology.material-dsc"
       },
       {
-        "id": "seed.it.vedph.codicology.numberings"
-      },
-      {
-        "id": "seed.it.vedph.codicology.quires"
-      },
-      {
-        "id": "seed.it.vedph.codicology.quire-labels"
+        "id": "seed.it.vedph.codicology.sheet-labels"
       },
       {
         "id": "seed.it.vedph.codicology.shelfmarks"
