@@ -4,13 +4,13 @@
       "id": "manuscript",
       "label": "manuscript",
       "description": "Manuscript.",
-      "colorKey": "AA6C39",
+      "colorKey": "A4243B",
       "partDefinitions": [
         {
           "typeId": "it.vedph.codicology.shelfmarks",
           "name": "shelfmarks",
           "description": "Current and historical shelfmarks.",
-          "colorKey": "D7D5DB",
+          "colorKey": "AF6455",
           "groupKey": "general",
           "sortKey": "a"
         },
@@ -18,7 +18,7 @@
           "typeId": "it.vedph.metadata",
           "name": "meta",
           "description": "Generic metadata.",
-          "colorKey": "C0AF92",
+          "colorKey": "FE3A34",
           "groupKey": "general",
           "sortKey": "b"
         },
@@ -27,7 +27,7 @@
           "roleId": "history",
           "name": "history",
           "description": "Manuscript's history.",
-          "colorKey": "B0A0C8",
+          "colorKey": "9D7EDD",
           "groupKey": "history",
           "sortKey": "c"
         },
@@ -35,7 +35,7 @@
           "typeId": "it.vedph.historical-events",
           "name": "events",
           "description": "Events in the manuscript's history.",
-          "colorKey": "B0A0C8",
+          "colorKey": "D4F672",
           "groupKey": "history",
           "sortKey": "d"
         },
@@ -43,7 +43,7 @@
           "typeId": "it.vedph.ext-bibliography",
           "name": "bibliography",
           "description": "Bibliography.",
-          "colorKey": "20B2AA",
+          "colorKey": "82DCCA",
           "groupKey": "general",
           "sortKey": "e"
         },
@@ -51,7 +51,7 @@
           "typeId": "it.vedph.note",
           "name": "note",
           "description": "A free text note.",
-          "colorKey": "B0A0F8",
+          "colorKey": "D7D5DB",
           "groupKey": "general",
           "sortKey": "f"
         },
@@ -59,7 +59,7 @@
           "typeId": "it.vedph.codicology.bindings",
           "name": "bindings",
           "description": "Current and historical bindings.",
-          "colorKey": "AF6465",
+          "colorKey": "C82222",
           "groupKey": "material",
           "sortKey": "g"
         },
@@ -67,7 +67,7 @@
           "typeId": "it.vedph.codicology.sheet-labels",
           "name": "quire-labels",
           "description": "Quires labels.",
-          "colorKey": "D4F682",
+          "colorKey": "DAA520",
           "groupKey": "material",
           "sortKey": "h"
         },
@@ -75,7 +75,7 @@
           "typeId": "it.vedph.codicology.material-dsc",
           "name": "material",
           "description": "Material description.",
-          "colorKey": "989796",
+          "colorKey": "C880C4",
           "groupKey": "material",
           "sortKey": "i"
         },
@@ -83,7 +83,7 @@
           "typeId": "it.vedph.codicology.watermarks",
           "name": "watermarks",
           "description": "Watermarks.",
-          "colorKey": "82DCCA",
+          "colorKey": "508B5E",
           "groupKey": "material",
           "sortKey": "j"
         },
@@ -91,7 +91,7 @@
           "typeId": "it.vedph.codicology.contents",
           "name": "contents",
           "description": "Contents: text.",
-          "colorKey": "508B5E",
+          "colorKey": "EEE862",
           "groupKey": "content",
           "sortKey": "k"
         },
@@ -99,7 +99,7 @@
           "typeId": "it.vedph.codicology.layouts",
           "name": "layouts",
           "description": "Text layouts.",
-          "colorKey": "72EAF7",
+          "colorKey": "4D5EF7",
           "groupKey": "content",
           "sortKey": "l"
         },
@@ -107,7 +107,7 @@
           "typeId": "it.vedph.codicology.decorations",
           "name": "decorations",
           "description": "Decorations.",
-          "colorKey": "4D5EF7",
+          "colorKey": "F5C2B1",
           "groupKey": "content",
           "sortKey": "m"
         },
@@ -115,7 +115,7 @@
           "typeId": "it.vedph.codicology.hands",
           "name": "hands",
           "description": "Hands.",
-          "colorKey": "F5C2B1",
+          "colorKey": "72EAF7",
           "groupKey": "content",
           "sortKey": "n"
         },
@@ -123,7 +123,7 @@
           "typeId": "it.vedph.codicology.edits",
           "name": "edits",
           "description": "Supplementary edits on text.",
-          "colorKey": "F5C2C1",
+          "colorKey": "E72A8E",
           "groupKey": "content",
           "sortKey": "o"
         },
@@ -131,7 +131,7 @@
           "typeId": "it.vedph.itinera.cod-loci",
           "name": "loci",
           "description": "Loci critici.",
-          "colorKey": "C880C4",
+          "colorKey": "41943B",
           "groupKey": "itinera",
           "sortKey": "p"
         },
@@ -139,7 +139,7 @@
           "typeId": "it.vedph.itinera.cod-poem-ranges",
           "name": "poem ranges",
           "description": "Petrarch's poems ranges.",
-          "colorKey": "C880E4",
+          "colorKey": "8047DD",
           "groupKey": "itinera",
           "sortKey": "s"
         }
@@ -149,13 +149,13 @@
       "id": "person",
       "label": "person",
       "description": "Person.",
-      "colorKey": "226666",
+      "colorKey": "273E47",
       "partDefinitions": [
         {
           "typeId": "it.vedph.itinera.person-info",
           "name": "info",
           "description": "Essential bio information.",
-          "colorKey": "D4E5FB",
+          "colorKey": "B7E9D1",
           "groupKey": "general",
           "sortKey": "a"
         },
@@ -163,7 +163,7 @@
           "typeId": "it.vedph.names",
           "name": "names",
           "description": "Person's name(s).",
-          "colorKey": "D4E5FB",
+          "colorKey": "A7E8BD",
           "groupKey": "general",
           "sortKey": "b"
         },
@@ -171,7 +171,7 @@
           "typeId": "it.vedph.external-ids",
           "name": "IDs",
           "description": "Person's identifiers.",
-          "colorKey": "D4E5FB",
+          "colorKey": "D2D2BB",
           "groupKey": "general",
           "sortKey": "c"
         },
@@ -179,7 +179,7 @@
           "typeId": "it.vedph.historical-events",
           "name": "events",
           "description": "Biographic events.",
-          "colorKey": "D4E5FB",
+          "colorKey": "D4F672",
           "groupKey": "bio",
           "sortKey": "d"
         },
@@ -187,7 +187,7 @@
           "typeId": "it.vedph.itinera.person-works",
           "name": "works",
           "description": "Person's works.",
-          "colorKey": "D4E5FB",
+          "colorKey": "EFA7A7",
           "groupKey": "bio",
           "sortKey": "e"
         },
@@ -195,7 +195,7 @@
           "typeId": "it.vedph.ext-bibliography",
           "name": "bibliography",
           "description": "Bibliography.",
-          "colorKey": "20B2AA",
+          "colorKey": "82DCCA",
           "groupKey": "references",
           "sortKey": "f"
         },
@@ -203,7 +203,7 @@
           "typeId": "it.vedph.note",
           "name": "note",
           "description": "A free text note.",
-          "colorKey": "B0A0F8",
+          "colorKey": "D7D5DB",
           "groupKey": "misc",
           "sortKey": "g"
         }
@@ -213,13 +213,13 @@
       "id": "work",
       "label": "work",
       "description": "A literary work.",
-      "colorKey": "B76C99",
+      "colorKey": "F58549",
       "partDefinitions": [
         {
           "typeId": "it.vedph.itinera.literary-work-info",
           "name": "info",
           "description": "Essential work information.",
-          "colorKey": "C0AFF0",
+          "colorKey": "EEE862",
           "groupKey": "general",
           "sortKey": "a"
         },
@@ -227,7 +227,7 @@
           "typeId": "it.vedph.chronotopes",
           "name": "chronotopes",
           "description": "A list of place/date indications.",
-          "colorKey": "C0AF92",
+          "colorKey": "F48483",
           "groupKey": "general",
           "sortKey": "b"
         },
@@ -235,7 +235,7 @@
           "typeId": "it.vedph.metadata",
           "name": "meta",
           "description": "Generic work's metadata.",
-          "colorKey": "C0AF92",
+          "colorKey": "FE3A34",
           "groupKey": "general",
           "sortKey": "c"
         },
@@ -243,7 +243,7 @@
           "typeId": "it.vedph.external-ids",
           "name": "IDs",
           "description": "Work's identifiers.",
-          "colorKey": "D4E5FB",
+          "colorKey": "D2D2BB",
           "groupKey": "general",
           "sortKey": "d"
         },
@@ -251,7 +251,7 @@
           "typeId": "it.vedph.itinera.letter-info",
           "name": "letter",
           "description": "Letter's information.",
-          "colorKey": "D4E5FB",
+          "colorKey": "76CB9C",
           "groupKey": "general",
           "sortKey": "e"
         },
@@ -259,7 +259,7 @@
           "typeId": "it.vedph.itinera.referenced-texts",
           "name": "ref-texts",
           "description": "Texts referenced by this work.",
-          "colorKey": "D4E5FB",
+          "colorKey": "A5CB76",
           "groupKey": "relations",
           "sortKey": "f"
         },
@@ -268,7 +268,7 @@
           "roleId": "cited",
           "name": "cited-persons",
           "description": "Persons cited by this work.",
-          "colorKey": "D4E5FB",
+          "colorKey": "76CBC6",
           "groupKey": "relations",
           "sortKey": "g"
         },
@@ -277,7 +277,7 @@
           "roleId": "recipients",
           "name": "recipent-persons",
           "description": "Persons this work is addressed to.",
-          "colorKey": "D4E5FB",
+          "colorKey": "CB9C76",
           "groupKey": "relations",
           "sortKey": "h"
         },
@@ -285,7 +285,7 @@
           "typeId": "it.vedph.itinera.witnesses",
           "name": "witnesses",
           "description": "Manuscript witnesses for this work.",
-          "colorKey": "20B2AA",
+          "colorKey": "988BD2",
           "groupKey": "references",
           "sortKey": "i"
         },
@@ -293,7 +293,7 @@
           "typeId": "it.vedph.ext-bibliography",
           "name": "bibliography",
           "description": "Bibliography.",
-          "colorKey": "20B2AA",
+          "colorKey": "82DCCA",
           "groupKey": "references",
           "sortKey": "j"
         },
@@ -301,7 +301,7 @@
           "typeId": "it.vedph.note",
           "name": "note",
           "description": "A free text note.",
-          "colorKey": "B0A0F8",
+          "colorKey": "D7D5DB",
           "groupKey": "misc",
           "sortKey": "k"
         }
@@ -1722,6 +1722,312 @@
         {
           "id": "arch",
           "value": "archive doc."
+        }
+      ]
+    },
+    {
+      "id": "ext-biblio-author-roles@en",
+      "entries": [
+        {
+          "id": "ed",
+          "value": "curatore"
+        },
+        {
+          "id": "tr",
+          "value": "traduttore"
+        },
+        {
+          "id": "coll",
+          "value": "collaboratore"
+        },
+        {
+          "id": "dir",
+          "value": "direttore"
+        },
+        {
+          "id": "org",
+          "value": "organizzazione"
+        }
+      ]
+    },
+    {
+      "id": "ext-biblio-languages@en",
+      "targetId": "languages"
+    },
+    {
+      "id": "ext-biblio-work-tags@en",
+      "entries": [
+        {
+          "id": "ed",
+          "value": "ed.critica"
+        },
+        {
+          "id": "-",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "languages@en",
+      "entries": [
+        {
+          "id": "eng",
+          "value": "inglese"
+        },
+        {
+          "id": "fre",
+          "value": "francese"
+        },
+        {
+          "id": "deu",
+          "value": "tedesco"
+        },
+        {
+          "id": "grc",
+          "value": "greco"
+        },
+        {
+          "id": "gre",
+          "value": "neogreco"
+        },
+        {
+          "id": "ita",
+          "value": "italiano"
+        },
+        {
+          "id": "lat",
+          "value": "latino"
+        },
+        {
+          "id": "spa",
+          "value": "spagnolo"
+        }
+      ]
+    },
+    {
+      "id": "literary-work-genres@en",
+      "entries": [
+        {
+          "id": "prose",
+          "value": "prosa"
+        },
+        {
+          "id": "prose.let",
+          "value": "lettera"
+        },
+        {
+          "id": "prose.bio",
+          "value": "biografia"
+        },
+        {
+          "id": "prose.comment",
+          "value": "commento"
+        },
+        {
+          "id": "prose.cron",
+          "value": "cronaca"
+        },
+        {
+          "id": "prose.dial",
+          "value": "dialogo"
+        },
+        {
+          "id": "prose.inv",
+          "value": "invettiva"
+        },
+        {
+          "id": "prose.narr",
+          "value": "novella"
+        },
+        {
+          "id": "prose.orat",
+          "value": "orazione"
+        },
+        {
+          "id": "prose.nov",
+          "value": "romanzo"
+        },
+        {
+          "id": "prose.psalm",
+          "value": "salmo"
+        },
+        {
+          "id": "prose.serm",
+          "value": "sermone"
+        },
+        {
+          "id": "prose.treat",
+          "value": "trattato"
+        },
+        {
+          "id": "prose.vulg",
+          "value": "volgarizzamento"
+        },
+        {
+          "id": "prose.other",
+          "value": "altro"
+        },
+        {
+          "id": "poetry",
+          "value": "poesia"
+        },
+        {
+          "id": "poetry.sonetto",
+          "value": "sonetto"
+        },
+        {
+          "id": "poetry.sonetto-cr",
+          "value": "sonetto caudato o ritornellato"
+        },
+        {
+          "id": "poetry.ball",
+          "value": "ballata"
+        },
+        {
+          "id": "poetry.canz",
+          "value": "canzone"
+        },
+        {
+          "id": "poetry.carm",
+          "value": "carme"
+        },
+        {
+          "id": "poetry.eclog",
+          "value": "egloga"
+        },
+        {
+          "id": "poetry.epigr",
+          "value": "epigramma"
+        },
+        {
+          "id": "poetry.epit",
+          "value": "epitaffio"
+        },
+        {
+          "id": "poetry.ep",
+          "value": "epistola metrica"
+        },
+        {
+          "id": "poetry.frot",
+          "value": "frottola"
+        },
+        {
+          "id": "poetry.madr",
+          "value": "madrigale"
+        },
+        {
+          "id": "poetry.oct",
+          "value": "ottava"
+        },
+        {
+          "id": "poetry.poem",
+          "value": "poema"
+        },
+        {
+          "id": "poetry.poem-short",
+          "value": "poemetto"
+        },
+        {
+          "id": "poetry.sest",
+          "value": "sestina"
+        },
+        {
+          "id": "poetry.sirv",
+          "value": "sirventese"
+        },
+        {
+          "id": "poetry.stanza",
+          "value": "stanza"
+        },
+        {
+          "id": "poetry.ter",
+          "value": "terza rima"
+        },
+        {
+          "id": "poetry.other",
+          "value": "altro"
+        },
+        {
+          "id": "prosim",
+          "value": "prosimetro"
+        }
+      ]
+    },
+    {
+      "id": "literary-work-languages@en",
+      "entries": [
+        {
+          "id": "eng",
+          "value": "inglese"
+        },
+        {
+          "id": "fre",
+          "value": "francese"
+        },
+        {
+          "id": "deu",
+          "value": "tedesco"
+        },
+        {
+          "id": "flem",
+          "value": "fiammingo"
+        },
+        {
+          "id": "grc",
+          "value": "greco"
+        },
+        {
+          "id": "gre",
+          "value": "neogreco"
+        },
+        {
+          "id": "ita",
+          "value": "italiano"
+        },
+        {
+          "id": "lat",
+          "value": "latino"
+        },
+        {
+          "id": "prov",
+          "value": "provenzale"
+        },
+        {
+          "id": "spa",
+          "value": "spagnolo"
+        },
+        {
+          "id": "other",
+          "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "literary-work-metres@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "11s",
+          "value": "endecasillabi"
+        },
+        {
+          "id": "7s",
+          "value": "settenari"
+        },
+        {
+          "id": "6p",
+          "value": "esametri"
+        },
+        {
+          "id": "6p-5p",
+          "value": "distici"
+        },
+        {
+          "id": "other",
+          "value": "altro"
         }
       ]
     },
