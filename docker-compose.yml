@@ -18,9 +18,9 @@ services:
   # https://github.com/docker-library/docs/tree/master/mysql#mysql_database
   # https://docs.docker.com/samples/library/mysql/#environment-variables
   # https://github.com/docker-library/mysql/issues/275 (troubleshooting connection)
-  cadmus-index:
+  cadmus-mysql:
     image: mysql
-    container_name: cadmus-index
+    container_name: cadmus-mysql
     # https://github.com/docker-library/mysql/issues/454
     command: --default-authentication-plugin=mysql_native_password
     environment:
@@ -35,6 +35,22 @@ services:
     networks:
       - cadmus-network
 
+  cadmus-biblio-api:
+    image: vedph2020/cadmus_biblio_api:1.0.11
+    ports:
+      - 61691:80
+    depends_on:
+      - cadmus-mongo
+      - cadmus-mysql
+    environment:
+      - CONNECTIONSTRINGS__DEFAULT=mongodb://cadmus-mongo:27017/{0}
+      - CONNECTIONSTRINGS__BIBLIO=Server=cadmus-mysql;port=3306;Database={0};Uid=root;Pwd=mysql
+      - SEED__BIBLIODELAY=50
+      - SERILOG__CONNECTIONSTRING=mongodb://cadmus-mongo:27017/{0}-log
+      - STOCKUSERS__0__PASSWORD=P4ss-W0rd!
+    networks:
+      - cadmus-network
+
   cadmus-api:
     image: vedph2020/cadmus_itinera_api:2.0.0
     ports:
@@ -42,14 +58,14 @@ services:
       - 12208:80
     depends_on:
       - cadmus-mongo
-      - cadmus-index
+      - cadmus-mysql
     # wait for mongo before starting: https://github.com/vishnubob/wait-for-it
     command: ["./wait-for-it.sh", "cadmus-mongo:27017", "--", "dotnet", "CadmusItineraApi.dll"]
     environment:
       # for Windows use : as separator, for non Windows use __
       # (see https://github.com/aspnet/Configuration/issues/469)
       - CONNECTIONSTRINGS__DEFAULT=mongodb://cadmus-mongo:27017/{0}
-      - CONNECTIONSTRINGS__INDEX=Server=cadmus-index;port=3306;Database={0};Uid=root;Pwd=mysql
+      - CONNECTIONSTRINGS__INDEX=Server=cadmus-mysql;port=3306;Database={0};Uid=root;Pwd=mysql
       - SERILOG__CONNECTIONSTRING=mongodb://cadmus-mongo:27017/{0}-log
       - STOCKUSERS__0__PASSWORD=P4ss-W0rd!
       - SEED__INDEXDELAY=25
