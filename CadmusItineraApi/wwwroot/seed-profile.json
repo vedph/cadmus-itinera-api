@@ -330,6 +330,11 @@
       "id": "item-index-reader.mysql"
     }
   },
+  "graph": {
+    "repository": {
+      "id": "graph-repository.sql-my"
+    }
+  },
   "thesauri": [
     {
       "id": "model-types@en",
@@ -2048,7 +2053,7 @@
   "seed": {
     "options": {
       "seed": 1,
-      "users": ["zeus"],
+      "users": [ "zeus" ],
       "partRoles": [],
       "fragmentRoles": []
     },
