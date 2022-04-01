@@ -211,8 +211,8 @@
     },
     {
       "id": "work",
-      "label": "work",
-      "description": "A literary work.",
+      "label": "text",
+      "description": "A literary text.",
       "colorKey": "F58549",
       "partDefinitions": [
         {
@@ -1817,6 +1817,10 @@
           "value": "prosa"
         },
         {
+          "id": "prose.-",
+          "value": "prosa"
+        },
+        {
           "id": "prose.let",
           "value": "lettera"
         },
@@ -1874,6 +1878,10 @@
         },
         {
           "id": "poetry",
+          "value": "poesia"
+        },
+        {
+          "id": "poetry.-",
           "value": "poesia"
         },
         {
@@ -2033,6 +2041,23 @@
         {
           "id": "other",
           "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "person-sex@en",
+      "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
+        {
+          "id": "m",
+          "value": "male"
+        },
+        {
+          "id": "f",
+          "value": "female"
         }
       ]
     },
