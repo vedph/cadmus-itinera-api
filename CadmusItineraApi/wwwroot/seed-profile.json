@@ -2073,6 +2073,41 @@
           "value": "mm"
         }
       ]
+    },
+    {
+      "id": "related-person-types-cited@en",
+      "entries": [
+        {
+          "id": "cited",
+          "value": "citato"
+        },
+        {
+          "id": "pseudo",
+          "value": "pseudonimo"
+        }
+      ]
+    },
+    {
+      "id": "related-person-types-recipient@en",
+      "entries": [
+        {
+          "id": "recipient",
+          "value": "destinatario"
+        }
+      ]
+    },
+    {
+      "id": "related-text-types@en",
+      "entries": [
+        {
+          "id": "reply-to",
+          "value": "risposta a"
+        },
+        {
+          "id": "quotation-of",
+          "value": "citazione di"
+        }
+      ]
     }
   ],
   "seed": {
