@@ -65,7 +65,7 @@
         },
         {
           "typeId": "it.vedph.codicology.sheet-labels",
-          "name": "quire-labels",
+          "name": "sheet-labels",
           "description": "Quires labels.",
           "colorKey": "DAA520",
           "groupKey": "material",
