@@ -1,309 +1,321 @@
 {
   "facets": [
     {
+      "colorKey": "A4243B",
+      "description": "Manuscript.",
       "id": "manuscript",
       "label": "manuscript",
-      "description": "Manuscript.",
-      "colorKey": "A4243B",
       "partDefinitions": [
         {
-          "typeId": "it.vedph.codicology.shelfmarks",
-          "name": "shelfmarks",
-          "description": "Current and historical shelfmarks.",
           "colorKey": "AF6455",
+          "description": "Current and historical shelfmarks.",
           "groupKey": "general",
-          "sortKey": "a"
+          "isRequired": true,
+          "name": "shelfmarks",
+          "sortKey": "a",
+          "typeId": "it.vedph.codicology.shelfmarks"
         },
         {
-          "typeId": "it.vedph.metadata",
-          "name": "meta",
-          "description": "Generic metadata.",
           "colorKey": "FE3A34",
+          "description": "Generic metadata.",
           "groupKey": "general",
-          "sortKey": "b"
+          "name": "meta",
+          "sortKey": "b",
+          "typeId": "it.vedph.metadata"
         },
         {
-          "typeId": "it.vedph.note",
-          "roleId": "history",
-          "name": "history",
-          "description": "Manuscript's history.",
-          "colorKey": "9D7EDD",
-          "groupKey": "history",
-          "sortKey": "c"
-        },
-        {
-          "typeId": "it.vedph.historical-events",
-          "name": "events",
-          "description": "Events in the manuscript's history.",
-          "colorKey": "D4F672",
-          "groupKey": "history",
-          "sortKey": "d"
-        },
-        {
-          "typeId": "it.vedph.ext-bibliography",
-          "name": "bibliography",
-          "description": "Bibliography.",
-          "colorKey": "82DCCA",
-          "groupKey": "general",
-          "sortKey": "e"
-        },
-        {
-          "typeId": "it.vedph.note",
-          "name": "note",
-          "description": "A free text note.",
-          "colorKey": "D7D5DB",
-          "groupKey": "general",
-          "sortKey": "f"
-        },
-        {
-          "typeId": "it.vedph.codicology.bindings",
-          "name": "bindings",
-          "description": "Current and historical bindings.",
-          "colorKey": "C82222",
-          "groupKey": "material",
-          "sortKey": "g"
-        },
-        {
-          "typeId": "it.vedph.codicology.sheet-labels",
-          "name": "sheet-labels",
-          "description": "Quires labels.",
           "colorKey": "DAA520",
+          "description": "Quires and sheets labels.",
           "groupKey": "material",
-          "sortKey": "h"
+          "name": "sheet labels",
+          "sortKey": "c",
+          "typeId": "it.vedph.codicology.sheet-labels"
         },
         {
-          "typeId": "it.vedph.codicology.material-dsc",
-          "name": "material",
-          "description": "Material description.",
           "colorKey": "C880C4",
+          "description": "Material description.",
           "groupKey": "material",
-          "sortKey": "i"
+          "name": "material",
+          "sortKey": "d",
+          "typeId": "it.vedph.codicology.material-dsc"
         },
         {
-          "typeId": "it.vedph.codicology.watermarks",
-          "name": "watermarks",
-          "description": "Watermarks.",
           "colorKey": "508B5E",
+          "description": "Watermarks.",
           "groupKey": "material",
-          "sortKey": "j"
+          "name": "watermarks",
+          "sortKey": "e",
+          "typeId": "it.vedph.codicology.watermarks"
         },
         {
-          "typeId": "it.vedph.codicology.contents",
-          "name": "contents",
-          "description": "Contents: text.",
-          "colorKey": "EEE862",
-          "groupKey": "content",
-          "sortKey": "k"
-        },
-        {
-          "typeId": "it.vedph.codicology.layouts",
-          "name": "layouts",
-          "description": "Text layouts.",
           "colorKey": "4D5EF7",
-          "groupKey": "content",
-          "sortKey": "l"
+          "description": "Text layouts.",
+          "groupKey": "material",
+          "name": "layouts",
+          "sortKey": "f",
+          "typeId": "it.vedph.codicology.layouts"
         },
         {
-          "typeId": "it.vedph.codicology.decorations",
-          "name": "decorations",
-          "description": "Decorations.",
-          "colorKey": "F5C2B1",
-          "groupKey": "content",
-          "sortKey": "m"
-        },
-        {
-          "typeId": "it.vedph.codicology.hands",
-          "name": "hands",
-          "description": "Hands.",
           "colorKey": "72EAF7",
+          "description": "Hands.",
           "groupKey": "content",
-          "sortKey": "n"
+          "name": "hands",
+          "sortKey": "g",
+          "typeId": "it.vedph.codicology.hands"
         },
         {
-          "typeId": "it.vedph.codicology.edits",
-          "name": "edits",
-          "description": "Supplementary edits on text.",
-          "colorKey": "E72A8E",
+          "colorKey": "F5C2B1",
+          "description": "Decorations.",
           "groupKey": "content",
-          "sortKey": "o"
+          "name": "decorations",
+          "sortKey": "h",
+          "typeId": "it.vedph.codicology.decorations"
         },
         {
-          "typeId": "it.vedph.itinera.cod-loci",
-          "name": "loci",
-          "description": "Loci critici.",
-          "colorKey": "41943B",
-          "groupKey": "itinera",
-          "sortKey": "p"
+          "colorKey": "C82222",
+          "description": "Current and historical bindings.",
+          "groupKey": "material",
+          "name": "bindings",
+          "sortKey": "i",
+          "typeId": "it.vedph.codicology.bindings"
         },
         {
-          "typeId": "it.vedph.itinera.cod-poem-ranges",
-          "name": "poem ranges",
-          "description": "Petrarch's poems ranges.",
+          "colorKey": "EEE862",
+          "description": "Contents: text and decoration.",
+          "groupKey": "content",
+          "name": "contents",
+          "sortKey": "j",
+          "typeId": "it.vedph.codicology.contents"
+        },
+        {
           "colorKey": "8047DD",
+          "description": "Petrarch's poems ranges.",
           "groupKey": "itinera",
-          "sortKey": "s"
+          "name": "poem ranges",
+          "sortKey": "k",
+          "typeId": "it.vedph.itinera.cod-poem-ranges"
+        },
+        {
+          "colorKey": "41943B",
+          "description": "Loci critici.",
+          "groupKey": "itinera",
+          "name": "loci",
+          "sortKey": "l",
+          "typeId": "it.vedph.itinera.cod-loci"
+        },
+        {
+          "colorKey": "E72A8E",
+          "description": "Supplementary edits on text.",
+          "groupKey": "content",
+          "name": "edits",
+          "sortKey": "m",
+          "typeId": "it.vedph.codicology.edits"
+        },
+        {
+          "colorKey": "D4F672",
+          "description": "Events in the manuscript's history.",
+          "groupKey": "history",
+          "name": "events",
+          "sortKey": "n",
+          "typeId": "it.vedph.historical-events"
+        },
+        {
+          "colorKey": "9D7EDD",
+          "description": "Manuscript's history.",
+          "groupKey": "history",
+          "name": "history",
+          "roleId": "history",
+          "sortKey": "o",
+          "typeId": "it.vedph.note"
+        },
+        {
+          "colorKey": "82DCCA",
+          "description": "Bibliography.",
+          "groupKey": "general",
+          "name": "bibliography",
+          "sortKey": "p",
+          "typeId": "it.vedph.ext-bibliography"
+        },
+        {
+          "colorKey": "D7D5DB",
+          "description": "A free text note.",
+          "groupKey": "general",
+          "name": "note",
+          "sortKey": "q",
+          "typeId": "it.vedph.note"
+        },
+        {
+          "colorKey": "D2D2BB",
+          "description": "Manuscript's identifiers.",
+          "groupKey": "general",
+          "name": "IDs",
+          "sortKey": "r",
+          "typeId": "it.vedph.external-ids"
         }
       ]
     },
     {
+      "colorKey": "273E47",
+      "description": "Person.",
       "id": "person",
       "label": "person",
-      "description": "Person.",
-      "colorKey": "273E47",
       "partDefinitions": [
         {
-          "typeId": "it.vedph.itinera.person-info",
-          "name": "info",
-          "description": "Essential bio information.",
           "colorKey": "B7E9D1",
+          "description": "Essential bio information.",
           "groupKey": "general",
-          "sortKey": "a"
+          "isRequired": true,
+          "name": "info",
+          "sortKey": "a",
+          "typeId": "it.vedph.itinera.person-info"
         },
         {
-          "typeId": "it.vedph.names",
-          "name": "names",
-          "description": "Person's name(s).",
           "colorKey": "A7E8BD",
+          "description": "Person's name(s).",
           "groupKey": "general",
-          "sortKey": "b"
+          "name": "names",
+          "sortKey": "b",
+          "typeId": "it.vedph.names"
         },
         {
-          "typeId": "it.vedph.external-ids",
-          "name": "IDs",
-          "description": "Person's identifiers.",
           "colorKey": "D2D2BB",
+          "description": "Person's identifiers.",
           "groupKey": "general",
-          "sortKey": "c"
+          "name": "IDs",
+          "sortKey": "c",
+          "typeId": "it.vedph.external-ids"
         },
         {
-          "typeId": "it.vedph.historical-events",
-          "name": "events",
-          "description": "Biographic events.",
           "colorKey": "D4F672",
+          "description": "Biographic events.",
           "groupKey": "bio",
-          "sortKey": "d"
+          "name": "events",
+          "sortKey": "d",
+          "typeId": "it.vedph.historical-events"
         },
         {
-          "typeId": "it.vedph.itinera.person-works",
-          "name": "works",
-          "description": "Person's works.",
           "colorKey": "EFA7A7",
+          "description": "Person's works.",
           "groupKey": "bio",
-          "sortKey": "e"
+          "name": "works",
+          "sortKey": "e",
+          "typeId": "it.vedph.itinera.person-works"
         },
         {
-          "typeId": "it.vedph.ext-bibliography",
-          "name": "bibliography",
-          "description": "Bibliography.",
           "colorKey": "82DCCA",
+          "description": "Bibliography.",
           "groupKey": "references",
-          "sortKey": "f"
+          "name": "bibliography",
+          "sortKey": "f",
+          "typeId": "it.vedph.ext-bibliography"
         },
         {
-          "typeId": "it.vedph.note",
-          "name": "note",
-          "description": "A free text note.",
           "colorKey": "D7D5DB",
+          "description": "A free text note.",
           "groupKey": "misc",
-          "sortKey": "g"
+          "name": "note",
+          "sortKey": "g",
+          "typeId": "it.vedph.note"
         }
       ]
     },
     {
-      "id": "work",
-      "label": "text",
-      "description": "A literary text.",
       "colorKey": "F58549",
+      "description": "A literary work.",
+      "id": "work",
+      "label": "work",
       "partDefinitions": [
         {
-          "typeId": "it.vedph.itinera.literary-work-info",
-          "name": "info",
-          "description": "Essential work information.",
           "colorKey": "EEE862",
+          "description": "Essential work information.",
           "groupKey": "general",
-          "sortKey": "a"
+          "isRequired": true,
+          "name": "info",
+          "sortKey": "a",
+          "typeId": "it.vedph.itinera.literary-work-info"
         },
         {
-          "typeId": "it.vedph.chronotopes",
-          "name": "chronotopes",
-          "description": "A list of place/date indications.",
           "colorKey": "F48483",
+          "description": "A list of place/date indications.",
           "groupKey": "general",
-          "sortKey": "b"
+          "isRequired": true,
+          "name": "chronotopes",
+          "sortKey": "b",
+          "typeId": "it.vedph.chronotopes"
         },
         {
-          "typeId": "it.vedph.metadata",
-          "name": "meta",
-          "description": "Generic work's metadata.",
           "colorKey": "FE3A34",
+          "description": "Generic work's metadata.",
           "groupKey": "general",
-          "sortKey": "c"
+          "name": "meta",
+          "sortKey": "c",
+          "typeId": "it.vedph.metadata"
         },
         {
-          "typeId": "it.vedph.external-ids",
-          "name": "IDs",
-          "description": "Work's identifiers.",
           "colorKey": "D2D2BB",
+          "description": "Work's identifiers.",
           "groupKey": "general",
-          "sortKey": "d"
+          "name": "IDs",
+          "sortKey": "d",
+          "typeId": "it.vedph.external-ids"
         },
         {
-          "typeId": "it.vedph.itinera.letter-info",
-          "name": "letter",
-          "description": "Letter's information.",
           "colorKey": "76CB9C",
+          "description": "Letter's information.",
           "groupKey": "general",
-          "sortKey": "e"
+          "name": "letter",
+          "sortKey": "e",
+          "typeId": "it.vedph.itinera.letter-info"
         },
         {
-          "typeId": "it.vedph.itinera.referenced-texts",
-          "name": "ref-texts",
-          "description": "Texts referenced by this work.",
           "colorKey": "A5CB76",
+          "description": "Texts referenced by this work.",
           "groupKey": "relations",
-          "sortKey": "f"
+          "name": "ref-texts",
+          "sortKey": "f",
+          "typeId": "it.vedph.itinera.referenced-texts"
         },
         {
-          "typeId": "it.vedph.itinera.related-persons",
-          "roleId": "cited",
-          "name": "cited-persons",
-          "description": "Persons cited by this work.",
           "colorKey": "76CBC6",
+          "description": "Persons cited by this work.",
           "groupKey": "relations",
-          "sortKey": "g"
+          "name": "cited-persons",
+          "roleId": "cited",
+          "sortKey": "g",
+          "typeId": "it.vedph.itinera.related-persons"
         },
         {
-          "typeId": "it.vedph.itinera.related-persons",
-          "roleId": "recipients",
-          "name": "recipent-persons",
-          "description": "Persons this work is addressed to.",
           "colorKey": "CB9C76",
+          "description": "Persons this work is addressed to.",
           "groupKey": "relations",
-          "sortKey": "h"
+          "name": "recipent-persons",
+          "roleId": "recipients",
+          "sortKey": "h",
+          "typeId": "it.vedph.itinera.related-persons"
         },
         {
-          "typeId": "it.vedph.itinera.witnesses",
-          "name": "witnesses",
-          "description": "Manuscript witnesses for this work.",
           "colorKey": "988BD2",
+          "description": "Manuscript witnesses for this work.",
           "groupKey": "references",
-          "sortKey": "i"
+          "name": "witnesses",
+          "sortKey": "i",
+          "typeId": "it.vedph.itinera.witnesses"
         },
         {
-          "typeId": "it.vedph.ext-bibliography",
-          "name": "bibliography",
-          "description": "Bibliography.",
           "colorKey": "82DCCA",
+          "description": "Bibliography.",
           "groupKey": "references",
-          "sortKey": "j"
+          "name": "bibliography",
+          "sortKey": "j",
+          "typeId": "it.vedph.ext-bibliography"
         },
         {
-          "typeId": "it.vedph.note",
-          "name": "note",
-          "description": "A free text note.",
           "colorKey": "D7D5DB",
+          "description": "A free text note.",
           "groupKey": "misc",
-          "sortKey": "k"
+          "name": "note",
+          "sortKey": "k",
+          "typeId": "it.vedph.note"
         }
       ]
     }
@@ -544,6 +556,10 @@
     {
       "id": "cod-content-annotation-types@en",
       "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
         {
           "id": "rubric",
           "value": "rubrica"
@@ -1852,20 +1868,20 @@
           "value": "---"
         },
         {
-          "id": "biblio",
-          "value": "bibliography"
+          "id": "text",
+          "value": "testo"
         },
         {
-          "id": "cite",
-          "value": "citation"
+          "id": "biblio",
+          "value": "bibliografia"
         },
         {
           "id": "ms",
-          "value": "manuscript"
+          "value": "manoscritto"
         },
         {
           "id": "arch",
-          "value": "archive doc."
+          "value": "documento arch."
         }
       ]
     },
@@ -2192,11 +2208,11 @@
         },
         {
           "id": "m",
-          "value": "male"
+          "value": "maschio"
         },
         {
           "id": "f",
-          "value": "female"
+          "value": "femmina"
         }
       ]
     },
@@ -2210,6 +2226,31 @@
         {
           "id": "mm",
           "value": "mm"
+        }
+      ]
+    },
+    {
+      "id": "proper-name-languages@en",
+      "targetId": "literary-work-languages"
+    },
+    {
+      "id": "proper-name-types@en",
+      "entries": [
+        {
+          "id": "first",
+          "value": "nome"
+        },
+        {
+          "id": "last",
+          "value": "cognome"
+        },
+        {
+          "id": "name",
+          "value": "nome generico"
+        },
+        {
+          "id": "title",
+          "value": "titolo"
         }
       ]
     },
