@@ -223,7 +223,7 @@
       "colorKey": "F58549",
       "description": "A literary work.",
       "id": "work",
-      "label": "work",
+      "label": "text",
       "partDefinitions": [
         {
           "colorKey": "EEE862",
@@ -2200,6 +2200,23 @@
       ]
     },
     {
+      "id": "metadata-types@en",
+      "entries": [
+        {
+          "id": "ms-exam",
+          "value": "modalità di esame ms"
+        },
+        {
+          "id": "ms-type",
+          "value": "tipologia ms"
+        },
+        {
+          "id": "text-type",
+          "value": "tipologia testo"
+        }
+      ]
+    },
+    {
       "id": "person-sex@en",
       "entries": [
         {
@@ -2255,7 +2272,7 @@
       ]
     },
     {
-      "id": "related-person-types-cited@en",
+      "id": "related-person-types@en",
       "entries": [
         {
           "id": "cited",
@@ -2264,12 +2281,7 @@
         {
           "id": "pseudo",
           "value": "pseudonimo"
-        }
-      ]
-    },
-    {
-      "id": "related-person-types-recipient@en",
-      "entries": [
+        },
         {
           "id": "recipient",
           "value": "destinatario"
