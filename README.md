@@ -12,6 +12,8 @@ docker build . -t vedph2020/cadmus-itinera-api:2.1.1 -t vedph2020/cadmus-itinera
 
 ## History
 
+- 2022-05-20: updated packages.
+
 ### 2.1.1
 
 - 2022-05-08: upgraded packages (added author to literary work info part).
