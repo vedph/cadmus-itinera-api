@@ -277,20 +277,10 @@
         },
         {
           "colorKey": "76CBC6",
-          "description": "Persons cited by this work.",
+          "description": "Persons related to this work.",
           "groupKey": "relations",
-          "name": "cited-persons",
-          "roleId": "cited",
+          "name": "rel-persons",
           "sortKey": "g",
-          "typeId": "it.vedph.itinera.related-persons"
-        },
-        {
-          "colorKey": "CB9C76",
-          "description": "Persons this work is addressed to.",
-          "groupKey": "relations",
-          "name": "recipent-persons",
-          "roleId": "recipients",
-          "sortKey": "h",
           "typeId": "it.vedph.itinera.related-persons"
         },
         {
