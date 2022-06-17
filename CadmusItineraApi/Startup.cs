@@ -20,11 +20,11 @@ using Cadmus.Api.Services.Auth;
 using Cadmus.Api.Services.Messaging;
 using Cadmus.Api.Services;
 using Microsoft.AspNetCore.HttpOverrides;
-using Cadmus.Index.Graph;
-using Cadmus.Index.MySql;
 using Cadmus.Index.Sql;
 using Cadmus.Itinera.Services;
 using CadmusApi.Services;
+using Cadmus.Graph;
+using Cadmus.Graph.MySql;
 
 namespace CadmusItineraApi
 {
