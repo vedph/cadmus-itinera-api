@@ -12,6 +12,8 @@ docker build . -t vedph2020/cadmus-itinera-api:2.1.2 -t vedph2020/cadmus-itinera
 
 ## History
 
+- 2022-06-28: updated packages.
+
 ### 2.1.2
 
 - 2022-05-20: updated packages.
