@@ -2207,6 +2207,36 @@
       ]
     },
     {
+      "id": "name-languages@en",
+      "entries": [
+        {
+          "id": "ita",
+          "value": "italiano"
+        },
+        {
+          "id": "lat",
+          "value": "latino"
+        }
+      ]
+    },
+    {
+      "id": "name-piece-types@en",
+      "entries": [
+        {
+          "id": "name",
+          "value": "nome"
+        },
+        {
+          "id": "first",
+          "value": "nome"
+        },
+        {
+          "id": "last",
+          "value": "cognome"
+        }
+      ]
+    },
+    {
       "id": "person-sex@en",
       "entries": [
         {
