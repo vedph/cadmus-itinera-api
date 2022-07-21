@@ -292,11 +292,19 @@
           "typeId": "it.vedph.itinera.witnesses"
         },
         {
+          "colorKey": "D4F672",
+          "description": "Events in the work's history.",
+          "groupKey": "history",
+          "name": "events",
+          "sortKey": "j",
+          "typeId": "it.vedph.historical-events"
+        },
+        {
           "colorKey": "82DCCA",
           "description": "Bibliography.",
           "groupKey": "references",
           "name": "bibliography",
-          "sortKey": "j",
+          "sortKey": "k",
           "typeId": "it.vedph.ext-bibliography"
         },
         {
@@ -304,7 +312,7 @@
           "description": "A free text note.",
           "groupKey": "misc",
           "name": "note",
-          "sortKey": "k",
+          "sortKey": "l",
           "typeId": "it.vedph.note"
         }
       ]
@@ -451,6 +459,10 @@
       "id": "cod-binding-board-materials@en",
       "entries": [
         {
+          "id": "-",
+          "value": "---"
+        },
+        {
           "id": "wood",
           "value": "legno"
         },
@@ -461,16 +473,16 @@
         {
           "id": "other",
           "value": "altro"
-        },
-        {
-          "id": "-",
-          "value": "---"
         }
       ]
     },
     {
       "id": "cod-binding-cover-materials@en",
       "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
         {
           "id": "skin",
           "value": "pelle"
@@ -498,10 +510,6 @@
         {
           "id": "other",
           "value": "altro"
-        },
-        {
-          "id": "-",
-          "value": "---"
         }
       ]
     },
@@ -1420,7 +1428,7 @@
       ]
     },
     {
-      "id": "cod-layout-counts@en",
+      "id": "decorated-count-tags@en",
       "entries": [
         {
           "id": "rr",
