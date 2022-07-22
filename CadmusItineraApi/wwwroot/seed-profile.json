@@ -1686,20 +1686,32 @@
       "id": "cod-poem-range-layouts@en",
       "entries": [
         {
+          "id": "1c",
+          "value": "1 colonna"
+        },
+        {
+          "id": "2c",
+          "value": "2 colonne"
+        },
+        {
+          "id": "2c-v",
+          "value": "2 colonne - verticale"
+        },
+        {
+          "id": "2c-h",
+          "value": "2 colonne - orizzontale"
+        },
+        {
+          "id": "2c-h-f",
+          "value": "2 colonne - or. interc.fisso"
+        },
+        {
+          "id": "2c-h-m",
+          "value": "2 colonne - or. interc.mobile"
+        },
+        {
           "id": "pr",
           "value": "prosa"
-        },
-        {
-          "id": "1v",
-          "value": "1 v. per r."
-        },
-        {
-          "id": "2v",
-          "value": "2 v. per r."
-        },
-        {
-          "id": "3v",
-          "value": "3 v. per r."
         }
       ]
     },
