@@ -1733,6 +1733,23 @@
       ]
     },
     {
+      "id": "cod-poem-range-tags@en",
+      "entries": [
+        {
+          "id": "2",
+          "value": "rispettata"
+        },
+        {
+          "id": "1",
+          "value": "tendenzialm.rispettata"
+        },
+        {
+          "id": "0",
+          "value": "non rispettata"
+        }
+      ]
+    },
+    {
       "id": "cod-quiresig-positions@en",
       "entries": [
         {
