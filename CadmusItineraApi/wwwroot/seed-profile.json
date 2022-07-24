@@ -2315,16 +2315,24 @@
       "id": "related-person-types@en",
       "entries": [
         {
-          "id": "cited",
+          "id": "mention",
           "value": "citato"
         },
         {
-          "id": "pseudo",
+          "id": "pseudonym",
           "value": "pseudonimo"
         },
         {
           "id": "recipient",
           "value": "destinatario"
+        },
+        {
+          "id": "dedicatee",
+          "value": "dedicatario"
+        },
+        {
+          "id": "request",
+          "value": "richiesta di recapito a"
         }
       ]
     },
