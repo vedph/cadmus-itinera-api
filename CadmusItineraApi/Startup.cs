@@ -197,8 +197,8 @@ namespace CadmusItineraApi
             if (!Configuration.GetSection("Preview").GetSection("IsEnabled")
                 .Get<bool>())
             {
-                return new CadmusPreviewer(repository,
-                    factoryProvider.GetFactory("{}"));
+                return new CadmusPreviewer(factoryProvider.GetFactory("{}"),
+                    repository);
             }
 
             // get profile source
@@ -210,8 +210,8 @@ namespace CadmusItineraApi
             {
                 Console.WriteLine($"Preview profile expected at {path} not found");
                 logger?.Error($"Preview profile expected at {path} not found");
-                return new CadmusPreviewer(repository,
-                    factoryProvider.GetFactory("{}"));
+                return new CadmusPreviewer(factoryProvider.GetFactory("{}"),
+                    repository);
             }
 
             // load profile
@@ -225,7 +225,7 @@ namespace CadmusItineraApi
             }
             CadmusPreviewFactory factory = factoryProvider.GetFactory(profile);
 
-            return new CadmusPreviewer(repository, factory);
+            return new CadmusPreviewer(factory, repository);
         }
 
         /// <summary>
@@ -274,7 +274,12 @@ namespace CadmusItineraApi
             // configuration
             services.AddSingleton(_ => Configuration);
             // repository
-            services.AddSingleton<IRepositoryProvider, ItineraRepositoryProvider>();
+            string dataCS = string.Format(
+                Configuration.GetConnectionString("Default"),
+                Configuration.GetValue<string>("DatabaseNames:Data"));
+            services.AddSingleton<IRepositoryProvider>(
+              _ => new ItineraRepositoryProvider { ConnectionString = dataCS });
+
             // part seeder factory provider
             services.AddSingleton<IPartSeederFactoryProvider,
                 ItineraPartSeederFactoryProvider>();
@@ -287,8 +292,7 @@ namespace CadmusItineraApi
                 Configuration.GetConnectionString("Index"),
                 Configuration.GetValue<string>("DatabaseNames:Data"));
             services.AddSingleton<IItemIndexFactoryProvider>(_ =>
-                new StandardItemIndexFactoryProvider(
-                    indexCS));
+                new StandardItemIndexFactoryProvider(indexCS));
 
             // graph repository
             services.AddSingleton<IGraphRepository>(_ =>
@@ -316,7 +320,6 @@ namespace CadmusItineraApi
                 .MinimumLevel.Override("Microsoft", LogEventLevel.Warning)
                 .Enrich.WithExceptionDetails()
                 .WriteTo.Console()
-                /*.WriteTo.MSSqlServer(Configuration["Serilog:ConnectionString"],*/
                 .WriteTo.MongoDBCapped(Configuration["Serilog:ConnectionString"],
                     cappedMaxSizeMb: !string.IsNullOrEmpty(maxSize) &&
                         int.TryParse(maxSize, out int n) && n > 0 ? n : 10)
