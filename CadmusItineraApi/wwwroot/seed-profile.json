@@ -1913,6 +1913,436 @@
       ]
     },
     {
+      "id": "event-types@en",
+      "entries": [
+        {
+          "id": "birth",
+          "value": "nascita"
+        },
+        {
+          "id": "family",
+          "value": "famiglia"
+        },
+        {
+          "id": "death",
+          "value": "morte"
+        },
+        {
+          "id": "marriage",
+          "value": "matrimonio"
+        },
+        {
+          "id": "job",
+          "value": "professione"
+        },
+        {
+          "id": "title",
+          "value": "titolo"
+        },
+        {
+          "id": "appointment",
+          "value": "nomina"
+        },
+        {
+          "id": "group",
+          "value": "gruppo"
+        },
+        {
+          "id": "meeting",
+          "value": "incontro"
+        },
+        {
+          "id": "travel",
+          "value": "viaggio"
+        },
+        {
+          "id": "participation",
+          "value": "partecipazione"
+        },
+        {
+          "id": "documented",
+          "value": "attestazione"
+        },
+        {
+          "id": "send",
+          "value": "invio"
+        },
+        {
+          "id": "reception",
+          "value": "ricezione"
+        },
+        {
+          "id": "deliver",
+          "value": "consegna"
+        },
+        {
+          "id": "transcription",
+          "value": "trascrizione"
+        },
+        {
+          "id": "annotation-person",
+          "value": "postilla"
+        },
+        {
+          "id": "collection",
+          "value": "raccolta"
+        },
+        {
+          "id": "writing",
+          "value": "stesura"
+        },
+        {
+          "id": "witness",
+          "value": "testimone"
+        },
+        {
+          "id": "edit",
+          "value": "edit"
+        },
+        {
+          "id": "commission",
+          "value": "commissione"
+        },
+        {
+          "id": "dedication",
+          "value": "dedica"
+        },
+        {
+          "id": "possession",
+          "value": "possesso"
+        },
+        {
+          "id": "lend",
+          "value": "prestito"
+        },
+        {
+          "id": "return",
+          "value": "restituzione"
+        },
+        {
+          "id": "buy",
+          "value": "acquisto"
+        }
+      ]
+    },
+    {
+      "id": "event-relations@en",
+      "entries": [
+        {
+          "id": "birth.mother",
+          "value": "madre"
+        },
+        {
+          "id": "birth.father",
+          "value": "padre"
+        },
+        {
+          "id": "family.son",
+          "value": "figlio"
+        },
+        {
+          "id": "family.daughter",
+          "value": "figlia"
+        },
+        {
+          "id": "family.mother",
+          "value": "madre"
+        },
+        {
+          "id": "family.father",
+          "value": "padre"
+        },
+        {
+          "id": "family.brother",
+          "value": "fratello"
+        },
+        {
+          "id": "family.sister",
+          "value": "sorella"
+        },
+        {
+          "id": "marriage.husband",
+          "value": "marito"
+        },
+        {
+          "id": "marriage.wife",
+          "value": "moglie"
+        },
+        {
+          "id": "job.pope",
+          "value": "papa"
+        },
+        {
+          "id": "job.cardinal",
+          "value": "cardinal"
+        },
+        {
+          "id": "job.bishop",
+          "value": "vescovo"
+        },
+        {
+          "id": "job.friar",
+          "value": "frate"
+        },
+        {
+          "id": "job.prior",
+          "value": "priore"
+        },
+        {
+          "id": "job.canon",
+          "value": "canonico"
+        },
+        {
+          "id": "job.king",
+          "value": "sovrano"
+        },
+        {
+          "id": "job.politician",
+          "value": "uomo politico"
+        },
+        {
+          "id": "job.teacher",
+          "value": "maestro"
+        },
+        {
+          "id": "job.lecturer",
+          "value": "lettore"
+        },
+        {
+          "id": "job.jurist",
+          "value": "giurista"
+        },
+        {
+          "id": "job.diplomatic",
+          "value": "diplomatico"
+        },
+        {
+          "id": "job.notary",
+          "value": "notaio"
+        },
+        {
+          "id": "job.military",
+          "value": "uomo d'armi"
+        },
+        {
+          "id": "job.scribe",
+          "value": "copista"
+        },
+        {
+          "id": "job.artist",
+          "value": "artista"
+        },
+        {
+          "id": "job.musician",
+          "value": "musico"
+        },
+        {
+          "id": "job.apprentice",
+          "value": "apprendista"
+        },
+        {
+          "id": "job.counsellor",
+          "value": "consigliere"
+        },
+        {
+          "id": "job.chancellor",
+          "value": "cancelliere"
+        },
+        {
+          "id": "job.secretary",
+          "value": "segretario"
+        },
+        {
+          "id": "job.merchant",
+          "value": "mercante"
+        },
+        {
+          "id": "job.artisan",
+          "value": "artigiano"
+        },
+        {
+          "id": "job.servant",
+          "value": "servo"
+        },
+        {
+          "id": "job.emperor",
+          "value": "imperatore"
+        },
+        {
+          "id": "job.physician",
+          "value": "medico"
+        },
+        {
+          "id": "job.duke",
+          "value": "duca"
+        },
+        {
+          "id": "job.earl",
+          "value": "conte"
+        },
+        {
+          "id": "job.prince",
+          "value": "principe"
+        },
+        {
+          "id": "job.teacher-of",
+          "value": "maestro di"
+        },
+        {
+          "id": "job.at-the-service-of",
+          "value": "a servizio di"
+        },
+        {
+          "id": "job.protector-of",
+          "value": "protettore di"
+        },
+        {
+          "id": "group.member-of",
+          "value": "membro di"
+        },
+        {
+          "id": "meeting.met",
+          "value": "persona incontrata"
+        },
+        {
+          "id": "meeting.spectator",
+          "value": "spettatore"
+        },
+        {
+          "id": "travel.participant",
+          "value": "partecipante"
+        },
+        {
+          "id": "participation.participant",
+          "value": "partecipante"
+        },
+        {
+          "id": "documented.participant",
+          "value": "partecipante"
+        },
+        {
+          "id": "send.sent",
+          "value": "oggetto inviato"
+        },
+        {
+          "id": "send.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "send.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "reception.received",
+          "value": "oggetto ricevuto"
+        },
+        {
+          "id": "reception.sender",
+          "value": "mittente"
+        },
+        {
+          "id": "reception.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "deliver.delivered",
+          "value": "oggetto ricevuto"
+        },
+        {
+          "id": "deliver.delivered",
+          "value": "oggetto ricevuto"
+        },
+        {
+          "id": "transcription.copy",
+          "value": "copia"
+        },
+        {
+          "id": "transcription.text",
+          "value": "testo trascritto"
+        },
+        {
+          "id": "annotation-person.annotation",
+          "value": "postilla"
+        },
+        {
+          "id": "annotation-person.ms",
+          "value": "manoscritto postillato"
+        },
+        {
+          "id": "annotation-person.text",
+          "value": "testo postillato"
+        },
+        {
+          "id": "collection.text",
+          "value": "testo raccolto"
+        },
+        {
+          "id": "writing.text",
+          "value": "testo"
+        },
+        {
+          "id": "edit.maker",
+          "value": "eseguito da"
+        },
+        {
+          "id": "edit.eid",
+          "value": "eid edit"
+        },
+        {
+          "id": "edit.type",
+          "value": "edit type"
+        },
+        {
+          "id": "commission.buyer",
+          "value": "committente"
+        },
+        {
+          "id": "commission.maker",
+          "value": "esecutore"
+        },
+        {
+          "id": "dedication.maker",
+          "value": "dedicante"
+        },
+        {
+          "id": "dedication.recipient",
+          "value": "dedicatario"
+        },
+        {
+          "id": "possession.owner",
+          "value": "posseduto da"
+        },
+        {
+          "id": "possession.note",
+          "value": "testimoniato da"
+        },
+        {
+          "id": "lend.borrowed",
+          "value": "prende in prestito"
+        },
+        {
+          "id": "lend.borrower",
+          "value": "prende in prestito da"
+        },
+        {
+          "id": "return.returned",
+          "value": "restituisce"
+        },
+        {
+          "id": "return.return-to",
+          "value": "restituisce a"
+        },
+        {
+          "id": "buy.buyer",
+          "value": "acquirente"
+        },
+        {
+          "id": "buy.seller",
+          "value": "venditore"
+        }
+      ]
+    },
+    {
       "id": "ext-biblio-author-roles@en",
       "entries": [
         {
