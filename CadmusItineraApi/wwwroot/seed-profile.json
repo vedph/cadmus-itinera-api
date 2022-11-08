@@ -1916,112 +1916,196 @@
       "id": "event-types@en",
       "entries": [
         {
-          "id": "birth",
+          "id": "person.birth",
           "value": "nascita"
         },
         {
-          "id": "family",
+          "id": "person.family",
           "value": "famiglia"
         },
         {
-          "id": "death",
+          "id": "person.death",
           "value": "morte"
         },
         {
-          "id": "marriage",
+          "id": "person.marriage",
           "value": "matrimonio"
         },
         {
-          "id": "job",
+          "id": "person.job",
           "value": "professione"
         },
         {
-          "id": "title",
+          "id": "person.title",
           "value": "titolo"
         },
         {
-          "id": "appointment",
+          "id": "person.appointment",
           "value": "nomina"
         },
         {
-          "id": "group",
+          "id": "person.group",
           "value": "gruppo"
         },
         {
-          "id": "meeting",
+          "id": "person.meeting",
           "value": "incontro"
         },
         {
-          "id": "travel",
+          "id": "person.travel",
           "value": "viaggio"
         },
         {
-          "id": "participation",
+          "id": "person.participation",
           "value": "partecipazione"
         },
         {
-          "id": "documented",
+          "id": "person.documented",
           "value": "attestazione"
         },
         {
-          "id": "send",
+          "id": "person.send",
           "value": "invio"
         },
         {
-          "id": "reception",
+          "id": "person.reception",
           "value": "ricezione"
         },
         {
-          "id": "deliver",
+          "id": "person.deliver",
           "value": "consegna"
         },
         {
-          "id": "transcription",
+          "id": "person.transcription",
           "value": "trascrizione"
         },
         {
-          "id": "annotation-person",
-          "value": "postilla"
-        },
-        {
-          "id": "collection",
+          "id": "person.collection",
           "value": "raccolta"
         },
         {
-          "id": "writing",
+          "id": "person.annotation",
+          "value": "postilla"
+        },
+        {
+          "id": "person.writing",
           "value": "stesura"
+        },
+        {
+          "id": "person.commission",
+          "value": "commissione"
+        },
+        {
+          "id": "person.commissioned",
+          "value": "esecuzione su commissione"
+        },
+        {
+          "id": "person.dedication",
+          "value": "dedica"
+        },
+        {
+          "id": "person.dedicated",
+          "value": "ricezione di dedica"
+        },
+        {
+          "id": "person.possession",
+          "value": "possesso"
+        },
+        {
+          "id": "person.borrowing",
+          "value": "prende in prestito"
+        },
+        {
+          "id": "person.lending",
+          "value": "presta"
+        },
+        {
+          "id": "person.returning",
+          "value": "restituisce"
+        },
+        {
+          "id": "person.obtain-restitution",
+          "value": "ottiene restituzione"
+        },
+        {
+          "id": "person.buying",
+          "value": "acquista"
+        },
+        {
+          "id": "person.selling",
+          "value": "vende"
+        },
+        {
+          "id": "text.send",
+          "value": "invio"
+        },
+        {
+          "id": "text.reception",
+          "value": "ricezione"
+        },
+        {
+          "id": "text.deliver",
+          "value": "consegna"
+        },
+        {
+          "id": "text.transcription",
+          "value": "trascrizione"
+        },
+        {
+          "id": "text.writing",
+          "value": "stesura"
+        },
+        {
+          "id": "text.collection",
+          "value": "raccolta"
+        },
+        {
+          "id": "manuscript.send",
+          "value": "invio"
+        },
+        {
+          "id": "manuscript.reception",
+          "value": "ricezione"
+        },
+        {
+          "id": "manuscript.deliver",
+          "value": "consegna"
         },
         {
           "id": "witness",
           "value": "testimone"
         },
         {
-          "id": "edit",
-          "value": "edit"
+          "id": "manuscript.editing",
+          "value": "editing"
         },
         {
-          "id": "commission",
+          "id": "manuscript.commission",
           "value": "commissione"
         },
         {
-          "id": "dedication",
+          "id": "manuscript.dedication",
           "value": "dedica"
         },
         {
-          "id": "possession",
+          "id": "manuscript.possession",
           "value": "possesso"
         },
         {
-          "id": "lend",
+          "id": "manuscript.lend",
           "value": "prestito"
         },
         {
-          "id": "return",
+          "id": "manuscript.return",
           "value": "restituzione"
         },
         {
-          "id": "buy",
+          "id": "manuscript.buy",
           "value": "acquisto"
+        },
+        {
+          "id": "manuscript.restore",
+          "value": "restauro"
         }
       ]
     },
@@ -2029,316 +2113,500 @@
       "id": "event-relations@en",
       "entries": [
         {
-          "id": "birth.mother",
+          "id": "person.birth.mother",
           "value": "madre"
         },
         {
-          "id": "birth.father",
+          "id": "person.birth.father",
           "value": "padre"
         },
         {
-          "id": "family.son",
+          "id": "person.family.son",
           "value": "figlio"
         },
         {
-          "id": "family.daughter",
+          "id": "person.family.daughter",
           "value": "figlia"
         },
         {
-          "id": "family.mother",
+          "id": "person.family.mother",
           "value": "madre"
         },
         {
-          "id": "family.father",
+          "id": "person.family.father",
           "value": "padre"
         },
         {
-          "id": "family.brother",
+          "id": "person.family.brother",
           "value": "fratello"
         },
         {
-          "id": "family.sister",
+          "id": "person.family.sister",
           "value": "sorella"
         },
         {
-          "id": "marriage.husband",
+          "id": "person.marriage.husband",
           "value": "marito"
         },
         {
-          "id": "marriage.wife",
+          "id": "person.marriage.wife",
           "value": "moglie"
         },
         {
-          "id": "job.pope",
+          "id": "person.job.pope",
           "value": "papa"
         },
         {
-          "id": "job.cardinal",
+          "id": "person.job.cardinal",
           "value": "cardinal"
         },
         {
-          "id": "job.bishop",
+          "id": "person.job.bishop",
           "value": "vescovo"
         },
         {
-          "id": "job.friar",
+          "id": "person.job.friar",
           "value": "frate"
         },
         {
-          "id": "job.prior",
+          "id": "person.job.prior",
           "value": "priore"
         },
         {
-          "id": "job.canon",
+          "id": "person.job.canon",
           "value": "canonico"
         },
         {
-          "id": "job.king",
+          "id": "person.job.king",
           "value": "sovrano"
         },
         {
-          "id": "job.politician",
+          "id": "person.job.politician",
           "value": "uomo politico"
         },
         {
-          "id": "job.teacher",
+          "id": "person.job.teacher",
           "value": "maestro"
         },
         {
-          "id": "job.lecturer",
+          "id": "person.job.lecturer",
           "value": "lettore"
         },
         {
-          "id": "job.jurist",
+          "id": "person.job.jurist",
           "value": "giurista"
         },
         {
-          "id": "job.diplomatic",
+          "id": "person.job.diplomatic",
           "value": "diplomatico"
         },
         {
-          "id": "job.notary",
+          "id": "person.job.notary",
           "value": "notaio"
         },
         {
-          "id": "job.military",
+          "id": "person.job.military",
           "value": "uomo d'armi"
         },
         {
-          "id": "job.scribe",
+          "id": "person.job.scribe",
           "value": "copista"
         },
         {
-          "id": "job.artist",
+          "id": "person.job.artist",
           "value": "artista"
         },
         {
-          "id": "job.musician",
+          "id": "person.job.musician",
           "value": "musico"
         },
         {
-          "id": "job.apprentice",
+          "id": "person.job.apprentice",
           "value": "apprendista"
         },
         {
-          "id": "job.counsellor",
+          "id": "person.job.counsellor",
           "value": "consigliere"
         },
         {
-          "id": "job.chancellor",
+          "id": "person.job.chancellor",
           "value": "cancelliere"
         },
         {
-          "id": "job.secretary",
+          "id": "person.job.secretary",
           "value": "segretario"
         },
         {
-          "id": "job.merchant",
+          "id": "person.job.merchant",
           "value": "mercante"
         },
         {
-          "id": "job.artisan",
+          "id": "person.job.artisan",
           "value": "artigiano"
         },
         {
-          "id": "job.servant",
+          "id": "person.job.servant",
           "value": "servo"
         },
         {
-          "id": "job.emperor",
+          "id": "person.job.emperor",
           "value": "imperatore"
         },
         {
-          "id": "job.physician",
+          "id": "person.job.physician",
           "value": "medico"
         },
         {
-          "id": "job.duke",
+          "id": "person.job.duke",
           "value": "duca"
         },
         {
-          "id": "job.earl",
+          "id": "person.job.earl",
           "value": "conte"
         },
         {
-          "id": "job.prince",
+          "id": "person.job.prince",
           "value": "principe"
         },
         {
-          "id": "job.teacher-of",
+          "id": "person.job.teacher-of",
           "value": "maestro di"
         },
         {
-          "id": "job.at-the-service-of",
+          "id": "person.job.at-the-service-of",
           "value": "a servizio di"
         },
         {
-          "id": "job.protector-of",
+          "id": "person.job.protector-of",
           "value": "protettore di"
         },
         {
-          "id": "group.member-of",
+          "id": "person.group.member-of",
           "value": "membro di"
         },
         {
-          "id": "meeting.met",
+          "id": "person.meeting.met",
           "value": "persona incontrata"
         },
         {
-          "id": "meeting.spectator",
+          "id": "person.meeting.spectator",
           "value": "spettatore"
         },
         {
-          "id": "travel.participant",
+          "id": "person.travel.participant",
           "value": "partecipante"
         },
         {
-          "id": "participation.participant",
+          "id": "person.participation.participant",
           "value": "partecipante"
         },
         {
-          "id": "documented.participant",
+          "id": "person.documented.participant",
           "value": "partecipante"
         },
         {
-          "id": "send.sent",
+          "id": "person.send.sent",
           "value": "oggetto inviato"
         },
         {
-          "id": "send.recipient",
+          "id": "person.send.recipient",
           "value": "destinatario"
         },
         {
-          "id": "send.messenger",
+          "id": "person.send.messenger",
           "value": "latore"
         },
         {
-          "id": "reception.received",
+          "id": "person.reception.received",
           "value": "oggetto ricevuto"
         },
         {
-          "id": "reception.sender",
+          "id": "person.reception.sender",
           "value": "mittente"
         },
         {
-          "id": "reception.messenger",
+          "id": "person.reception.messenger",
           "value": "latore"
         },
         {
-          "id": "deliver.delivered",
-          "value": "oggetto ricevuto"
+          "id": "person.deliver.delivered",
+          "value": "oggetto consegnato"
         },
         {
-          "id": "deliver.delivered",
-          "value": "oggetto ricevuto"
+          "id": "person.deliver.sender",
+          "value": "mittente"
         },
         {
-          "id": "transcription.copy",
+          "id": "person.deliver.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "person.transcription.copy",
           "value": "copia"
         },
         {
-          "id": "transcription.text",
+          "id": "person.transcription.text",
           "value": "testo trascritto"
         },
         {
-          "id": "annotation-person.annotation",
-          "value": "postilla"
+          "id": "person.collection.copy",
+          "value": "manoscritto"
         },
         {
-          "id": "annotation-person.ms",
-          "value": "manoscritto postillato"
-        },
-        {
-          "id": "annotation-person.text",
-          "value": "testo postillato"
-        },
-        {
-          "id": "collection.text",
+          "id": "person.collection.text",
           "value": "testo raccolto"
         },
         {
-          "id": "writing.text",
+          "id": "person.annotation.annotation",
+          "value": "postilla"
+        },
+        {
+          "id": "person.annotation.ms",
+          "value": "manoscritto postillato"
+        },
+        {
+          "id": "person.annotation.text",
+          "value": "testo postillato"
+        },
+        {
+          "id": "person.writing.text",
           "value": "testo"
         },
         {
-          "id": "edit.maker",
-          "value": "eseguito da"
+          "id": "person.commission.manuscript",
+          "value": "manoscritto"
         },
         {
-          "id": "edit.eid",
-          "value": "eid edit"
-        },
-        {
-          "id": "edit.type",
-          "value": "edit type"
-        },
-        {
-          "id": "commission.buyer",
-          "value": "committente"
-        },
-        {
-          "id": "commission.maker",
+          "id": "person.commission.maker",
           "value": "esecutore"
         },
         {
-          "id": "dedication.maker",
-          "value": "dedicante"
+          "id": "person.commissioned.manuscript",
+          "value": "manoscritto"
         },
         {
-          "id": "dedication.recipient",
+          "id": "person.commissioned.client",
+          "value": "committente"
+        },
+        {
+          "id": "person.dedication.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.dedication.recipient",
           "value": "dedicatario"
         },
         {
-          "id": "possession.owner",
-          "value": "posseduto da"
+          "id": "person.dedicated.manuscript",
+          "value": "manoscritto"
         },
         {
-          "id": "possession.note",
-          "value": "testimoniato da"
+          "id": "person.dedicated.maker",
+          "value": "dedicante"
         },
         {
-          "id": "lend.borrowed",
+          "id": "person.possession.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.possession.note",
+          "value": "nota di possesso"
+        },
+        {
+          "id": "person.borrowing.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.borrowing.lender",
+          "value": "presta"
+        },
+        {
+          "id": "person.lending.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.lending.borrower",
           "value": "prende in prestito"
         },
         {
-          "id": "lend.borrower",
-          "value": "prende in prestito da"
+          "id": "person.returning.manuscript",
+          "value": "manoscritto"
         },
         {
-          "id": "return.returned",
+          "id": "person.returning.obtain-restitution",
+          "value": "ottiene restituzione"
+        },
+        {
+          "id": "person.obtain-restitution.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.obtain-restitution.returning",
           "value": "restituisce"
         },
         {
-          "id": "return.return-to",
-          "value": "restituisce a"
+          "id": "person.buying.manuscript",
+          "value": "manoscritto"
         },
         {
-          "id": "buy.buyer",
+          "id": "person.buying.seller",
+          "value": "venditore"
+        },
+        {
+          "id": "person.selling.manuscript",
+          "value": "manoscritto"
+        },
+        {
+          "id": "person.selling.buyer",
           "value": "acquirente"
         },
         {
-          "id": "buy.seller",
+          "id": "text.send.sender",
+          "value": "mittente"
+        },
+        {
+          "id": "text.send.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "text.send.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "text.reception.sender",
+          "value": "mittente"
+        },
+        {
+          "id": "text.reception.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "text.reception.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "text.deliver.sender",
+          "value": "mittente"
+        },
+        {
+          "id": "text.deliver.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "text.deliver.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "text.transcription.copy",
+          "value": "copia"
+        },
+        {
+          "id": "text.transcription.transcriber",
+          "value": "trascrittore"
+        },
+        {
+          "id": "text.writing.author",
+          "value": "autore"
+        },
+        {
+          "id": "text.collection.collector",
+          "value": "raccolta"
+        },
+        {
+          "id": "manuscript.send.sender",
+          "value": "mittente"
+        },
+        {
+          "id": "manuscript.send.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "manuscript.send.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "manuscript.reception.sender",
+          "value": "mittente"
+        },
+        {
+          "id": "manuscript.reception.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "manuscript.reception.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "manuscript.deliver.sender",
+          "value": "mittente"
+        },
+        {
+          "id": "manuscript.deliver.recipient",
+          "value": "destinatario"
+        },
+        {
+          "id": "manuscript.deliver.messenger",
+          "value": "latore"
+        },
+        {
+          "id": "manuscript.editing.maker",
+          "value": "eseguito da"
+        },
+        {
+          "id": "manuscript.editing.eid",
+          "value": "eid edit"
+        },
+        {
+          "id": "manuscript.commission.client",
+          "value": "committente"
+        },
+        {
+          "id": "manuscript.commission.maker",
+          "value": "esecutore"
+        },
+        {
+          "id": "manuscript.dedication.maker",
+          "value": "dedicante"
+        },
+        {
+          "id": "manuscript.dedication.recipient",
+          "value": "dedicatario"
+        },
+        {
+          "id": "manuscript.possession.owner",
+          "value": "possessore"
+        },
+        {
+          "id": "manuscript.possession.note",
+          "value": "nota di possesso"
+        },
+        {
+          "id": "manuscript.lend.borrower",
+          "value": "prende in prestito"
+        },
+        {
+          "id": "manuscript.lend.lender",
+          "value": "presta"
+        },
+        {
+          "id": "manuscript.return.returned",
+          "value": "restituisce"
+        },
+        {
+          "id": "manuscript.return.return-to",
+          "value": "ottiene restituzione"
+        },
+        {
+          "id": "manuscript.buy.buyer",
+          "value": "acquirente"
+        },
+        {
+          "id": "manuscript.buy.seller",
           "value": "venditore"
+        },
+        {
+          "id": "manuscript.restore.restorer",
+          "value": "restauratore"
         }
       ]
     },
