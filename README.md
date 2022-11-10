@@ -12,6 +12,8 @@ docker build . -t vedph2020/cadmus-itinera-api:2.1.8 -t vedph2020/cadmus-itinera
 
 ## History
 
+- 2022-11-10: upgraded to NET 7.
+
 ### 2.1.8
 
 - 2022-11-08: updated thesauri.
