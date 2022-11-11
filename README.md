@@ -5,13 +5,16 @@ This is the second iteration of Itinera and will replace the [old repository](ht
 Quick Docker image build:
 
 ```bash
-docker build . -t vedph2020/cadmus-itinera-api:2.1.8 -t vedph2020/cadmus-itinera-api:latest
+docker build . -t vedph2020/cadmus-itinera-api:3.0.0 -t vedph2020/cadmus-itinera-api:latest
 ```
 
 (replace with the current version).
 
 ## History
 
+### 3.0.0
+
+- 2022-11-11: fix to thesaurus.
 - 2022-11-10: upgraded to NET 7.
 
 ### 2.1.8
