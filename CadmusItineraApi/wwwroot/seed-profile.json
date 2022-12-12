@@ -2200,10 +2200,6 @@
           "value": "consegna"
         },
         {
-          "id": "witness",
-          "value": "testimone"
-        },
-        {
           "id": "manuscript.editing",
           "value": "editing"
         },
