@@ -38,7 +38,7 @@ services:
       - cadmus-network
 
   cadmus-biblio-api:
-    image: vedph2020/cadmus_biblio_api:2.1.5
+    image: vedph2020/cadmus_biblio_api:2.1.7
     ports:
       - 61691:80
     depends_on:
