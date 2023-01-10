@@ -12,6 +12,10 @@ docker build . -t vedph2020/cadmus-itinera-api:3.0.4 -t vedph2020/cadmus-itinera
 
 ## History
 
+- 2023-01-10:
+  - updated version of biblio API in Docker compose.
+  - updated packages.
+
 ### 3.0.4
 
 - 2022-12-22: updated packages.
