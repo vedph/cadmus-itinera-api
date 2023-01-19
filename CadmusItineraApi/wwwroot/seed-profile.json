@@ -151,6 +151,22 @@
           "name": "IDs",
           "sortKey": "r",
           "typeId": "it.vedph.external-ids"
+        },
+        {
+          "colorKey": "006400",
+          "description": "Geographic location(s).",
+          "groupKey": "location",
+          "name": "location",
+          "sortKey": "s",
+          "typeId": "it.vedph.geo.asserted-locations"
+        },
+        {
+          "description": "Toponym(s).",
+          "colorKey": "006430",
+          "groupKey": "location",
+          "name": "toponym",
+          "sortKey": "t",
+          "typeId": "it.vedph.geo.asserted-toponyms"
         }
       ]
     },
@@ -400,6 +416,14 @@
         {
           "id": "it.vedph.external-ids",
           "value": "identifiers"
+        },
+        {
+          "id": "it.vedph.geo.asserted-toponyms",
+          "value": "toponyms"
+        },
+        {
+          "id": "it.vedph.geo.asserted-locations",
+          "value": "locations"
         },
         {
           "id": "it.vedph.historical-events",
@@ -2589,6 +2613,10 @@
           "value": "possessore"
         },
         {
+          "id": "manuscript.possession.attest",
+          "value": "attestato da"
+        },
+        {
           "id": "manuscript.lend.borrower",
           "value": "prende in prestito"
         },
@@ -2936,6 +2964,14 @@
       "id": "metadata-types@en",
       "entries": [
         {
+          "id": "eid",
+          "value": "identificativo"
+        },
+        {
+          "id": "author",
+          "value": "autore"
+        },
+        {
           "id": "ms-exam",
           "value": "modalità di esame ms"
         },
@@ -2946,6 +2982,10 @@
         {
           "id": "text-type",
           "value": "tipologia testo"
+        },
+        {
+          "id": "-",
+          "value": "altro"
         }
       ]
     },
@@ -3085,6 +3125,12 @@
       },
       {
         "id": "seed.it.vedph.external-ids"
+      },
+      {
+        "id": "seed.it.vedph.geo.asserted-locations"
+      },
+      {
+        "id": "seed.it.vedph.geo.asserted-toponyms"
       },
       {
         "id": "seed.it.vedph.historical-events"
