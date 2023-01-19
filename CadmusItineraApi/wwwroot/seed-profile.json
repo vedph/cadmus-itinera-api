@@ -153,7 +153,7 @@
           "typeId": "it.vedph.external-ids"
         },
         {
-          "colorKey": "006400",
+          "colorKey": "405C12",
           "description": "Geographic location(s).",
           "groupKey": "location",
           "name": "location",
@@ -162,7 +162,7 @@
         },
         {
           "description": "Toponym(s).",
-          "colorKey": "006430",
+          "colorKey": "397474",
           "groupKey": "location",
           "name": "toponym",
           "sortKey": "t",
