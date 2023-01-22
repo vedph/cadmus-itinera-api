@@ -12,6 +12,7 @@ docker build . -t vedph2020/cadmus-itinera-api:3.0.5 -t vedph2020/cadmus-itinera
 
 ## History
 
+- 2023-01-22: changed events part related entities thesaurus types separator from `.` to `:`.
 - 2023-01-19: added geography parts.
 
 ### 3.0.5
