@@ -177,12 +177,20 @@
       "label": "person",
       "partDefinitions": [
         {
+          "colorKey": "FE3A34",
+          "description": "Generic metadata.",
+          "groupKey": "general",
+          "name": "meta",
+          "sortKey": "a",
+          "typeId": "it.vedph.metadata"
+        },
+        {
           "colorKey": "B7E9D1",
           "description": "Essential bio information.",
           "groupKey": "general",
           "isRequired": true,
           "name": "info",
-          "sortKey": "a",
+          "sortKey": "b",
           "typeId": "it.vedph.itinera.person-info"
         },
         {
@@ -190,7 +198,7 @@
           "description": "Person's name(s).",
           "groupKey": "general",
           "name": "names",
-          "sortKey": "b",
+          "sortKey": "c",
           "typeId": "it.vedph.names"
         },
         {
@@ -198,7 +206,7 @@
           "description": "Person's identifiers.",
           "groupKey": "general",
           "name": "IDs",
-          "sortKey": "c",
+          "sortKey": "d",
           "typeId": "it.vedph.external-ids"
         },
         {
@@ -206,7 +214,7 @@
           "description": "Biographic events.",
           "groupKey": "bio",
           "name": "events",
-          "sortKey": "d",
+          "sortKey": "e",
           "typeId": "it.vedph.historical-events"
         },
         {
@@ -214,7 +222,7 @@
           "description": "Person's works.",
           "groupKey": "bio",
           "name": "works",
-          "sortKey": "e",
+          "sortKey": "f",
           "typeId": "it.vedph.itinera.person-works"
         },
         {
@@ -222,7 +230,7 @@
           "description": "Bibliography.",
           "groupKey": "references",
           "name": "bibliography",
-          "sortKey": "f",
+          "sortKey": "g",
           "typeId": "it.vedph.ext-bibliography"
         },
         {
@@ -230,7 +238,7 @@
           "description": "A free text note.",
           "groupKey": "misc",
           "name": "note",
-          "sortKey": "g",
+          "sortKey": "h",
           "typeId": "it.vedph.note"
         }
       ]
@@ -2685,6 +2693,47 @@
         {
           "id": "-",
           "value": "altro"
+        }
+      ]
+    },
+    {
+      "id": "geo-toponym-tags@en",
+      "entries": [
+        {
+          "id": "country*",
+          "value": "stato"
+        },
+        {
+          "id": "area",
+          "value": "area"
+        },
+        {
+          "id": "area.it-n",
+          "value": "Italia settentrionale"
+        },
+        {
+          "id": "area.it-c",
+          "value": "Italia centrale"
+        },
+        {
+          "id": "area.it-s",
+          "value": "Italia meridionale"
+        },
+        {
+          "id": "region*",
+          "value": "regione"
+        },
+        {
+          "id": "city*",
+          "value": "città"
+        },
+        {
+          "id": "site*",
+          "value": "luogo"
+        },
+        {
+          "id": "_order",
+          "value": "country area region city site"
         }
       ]
     },
