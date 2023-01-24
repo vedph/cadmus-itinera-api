@@ -12,6 +12,8 @@ docker build . -t vedph2020/cadmus-itinera-api:3.0.6 -t vedph2020/cadmus-itinera
 
 ## History
 
+- 2023-01-24: updated packages (added `eid` pin to codicology decorations part).
+
 ### 3.0.6
 
 - 2023-01-22: changed events part related entities thesaurus types separator from `.` to `:`.
