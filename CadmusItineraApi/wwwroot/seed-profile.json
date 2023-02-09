@@ -2645,11 +2645,11 @@
           "value": "manoscritto: consegna: latore"
         },
         {
-          "id": "manuscript.handwriting.hand",
+          "id": "manuscript:handwriting:hand",
           "value": "manoscritto: scrittura: eid mano"
         },
         {
-          "id": "manuscript.handwriting.person",
+          "id": "manuscript:handwriting:person",
           "value": "manoscritto: scrittura: copista"
         },
         {
