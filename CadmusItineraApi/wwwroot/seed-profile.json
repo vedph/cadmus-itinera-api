@@ -247,7 +247,7 @@
       "colorKey": "F58549",
       "description": "A literary work.",
       "id": "work",
-      "label": "text",
+      "label": "work",
       "partDefinitions": [
         {
           "colorKey": "EEE862",

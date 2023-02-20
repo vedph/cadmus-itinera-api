@@ -12,6 +12,8 @@ docker build . -t vedph2020/cadmus-itinera-api:4.0.4 -t vedph2020/cadmus-itinera
 
 ## History
 
+- 2023-02-20: changed label for literary work facet in configuration.
+
 ### 4.0.4
 
 - 2023-02-17: updated packages.
