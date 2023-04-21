@@ -117,7 +117,8 @@
           "groupKey": "history",
           "name": "events",
           "sortKey": "n",
-          "typeId": "it.vedph.historical-events"
+          "typeId": "it.vedph.historical-events",
+          "roleId": "ms"
         },
         {
           "colorKey": "9D7EDD",
@@ -215,7 +216,8 @@
           "groupKey": "bio",
           "name": "events",
           "sortKey": "e",
-          "typeId": "it.vedph.historical-events"
+          "typeId": "it.vedph.historical-events",
+          "roleId": "bio"
         },
         {
           "colorKey": "EFA7A7",
@@ -321,7 +323,8 @@
           "groupKey": "history",
           "name": "events",
           "sortKey": "j",
-          "typeId": "it.vedph.historical-events"
+          "typeId": "it.vedph.historical-events",
+          "roleId": "txt"
         },
         {
           "colorKey": "82DCCA",
@@ -1953,7 +1956,7 @@
       ]
     },
     {
-      "id": "event-types@en",
+      "id": "event-types_bio@en",
       "entries": [
         {
           "id": "person.birth",
@@ -2230,35 +2233,12 @@
         {
           "id": "person.selling",
           "value": "persona: vende"
-        },
-        {
-          "id": "text.send",
-          "value": "testo: invio"
-        },
-        {
-          "id": "text.reception",
-          "value": "testo: ricezione"
-        },
-        {
-          "id": "text.deliver",
-          "value": "testo: consegna"
-        },
-        {
-          "id": "text.transcription",
-          "value": "testo: trascrizione"
-        },
-        {
-          "id": "text.writing",
-          "value": "testo: stesura"
-        },
-        {
-          "id": "text.collection",
-          "value": "testo: raccolta"
-        },
-        {
-          "id": "text.version",
-          "value": "testo: redazione"
-        },
+        }
+      ]
+    },
+    {
+      "id": "event-types_ms@en",
+      "entries": [
         {
           "id": "manuscript.send",
           "value": "manoscritto: invio"
@@ -2306,6 +2286,39 @@
         {
           "id": "manuscript.restore",
           "value": "manoscritto: restauro"
+        }
+      ]
+    },
+    {
+      "id": "event-types_txt@en",
+      "entries": [
+        {
+          "id": "text.send",
+          "value": "testo: invio"
+        },
+        {
+          "id": "text.reception",
+          "value": "testo: ricezione"
+        },
+        {
+          "id": "text.deliver",
+          "value": "testo: consegna"
+        },
+        {
+          "id": "text.transcription",
+          "value": "testo: trascrizione"
+        },
+        {
+          "id": "text.writing",
+          "value": "testo: stesura"
+        },
+        {
+          "id": "text.collection",
+          "value": "testo: raccolta"
+        },
+        {
+          "id": "text.version",
+          "value": "testo: redazione"
         }
       ]
     },
