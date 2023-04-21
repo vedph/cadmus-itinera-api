@@ -1186,7 +1186,7 @@
         },
         {
           "id": "lat-vlg",
-          "value": "latino volgare"
+          "value": "latino+volgare"
         },
         {
           "id": "spa",
@@ -1402,7 +1402,7 @@
         },
         {
           "id": "lat-vlg",
-          "value": "latino volgare"
+          "value": "latino+volgare"
         },
         {
           "id": "other",
@@ -1665,6 +1665,10 @@
         {
           "id": "other",
           "value": "altro"
+        },
+        {
+          "id": "-",
+          "value": "---"
         }
       ]
     },
@@ -1690,6 +1694,10 @@
         {
           "id": "other",
           "value": "altro"
+        },
+        {
+          "id": "-",
+          "value": "---"
         }
       ]
     },
@@ -1711,6 +1719,10 @@
         {
           "id": "other",
           "value": "altro"
+        },
+        {
+          "id": "-",
+          "value": "---"
         }
       ]
     },
@@ -2736,6 +2748,10 @@
         {
           "id": "org",
           "value": "organizzazione"
+        },
+        {
+          "id": "with",
+          "value": "con"
         }
       ]
     },
@@ -2747,12 +2763,16 @@
       "id": "ext-biblio-work-tags@en",
       "entries": [
         {
-          "id": "ed",
-          "value": "ed.critica"
+          "id": "-",
+          "value": "---"
         },
         {
-          "id": "-",
-          "value": "altro"
+          "id": "ed",
+          "value": "edizioni"
+        },
+        {
+          "id": "study",
+          "value": "studi"
         }
       ]
     },
