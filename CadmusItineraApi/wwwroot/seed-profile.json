@@ -2119,7 +2119,7 @@
           "value": "persona: servo di"
         },
         {
-          "id": "person.at-the-service-of",
+          "id": "person.at-service-of",
           "value": "persona: a servizio di"
         },
         {
@@ -2167,8 +2167,8 @@
           "value": "persona: ricezione"
         },
         {
-          "id": "person.deliver",
-          "value": "persona: consegna"
+          "id": "person.exchange",
+          "value": "persona: scambio diretto"
         },
         {
           "id": "person.transcription",
@@ -2185,10 +2185,6 @@
         {
           "id": "person.handwriting",
           "value": "persona: scrittura"
-        },
-        {
-          "id": "person.writing",
-          "value": "persona: stesura"
         },
         {
           "id": "person.commission",
@@ -2240,18 +2236,6 @@
       "id": "event-types_ms@en",
       "entries": [
         {
-          "id": "manuscript.send",
-          "value": "manoscritto: invio"
-        },
-        {
-          "id": "manuscript.reception",
-          "value": "manoscritto: ricezione"
-        },
-        {
-          "id": "manuscript.deliver",
-          "value": "manoscritto: consegna"
-        },
-        {
           "id": "manuscript.handwriting",
           "value": "manoscritto: scrittura"
         },
@@ -2284,6 +2268,18 @@
           "value": "manoscritto: acquisto"
         },
         {
+          "id": "manuscript.send",
+          "value": "manoscritto: invio"
+        },
+        {
+          "id": "manuscript.reception",
+          "value": "manoscritto: ricezione"
+        },
+        {
+          "id": "manuscript.deliver",
+          "value": "manoscritto: consegna"
+        },
+        {
           "id": "manuscript.restore",
           "value": "manoscritto: restauro"
         }
@@ -2301,16 +2297,8 @@
           "value": "testo: ricezione"
         },
         {
-          "id": "text.deliver",
-          "value": "testo: consegna"
-        },
-        {
           "id": "text.transcription",
           "value": "testo: trascrizione"
-        },
-        {
-          "id": "text.writing",
-          "value": "testo: stesura"
         },
         {
           "id": "text.collection",
@@ -2438,16 +2426,12 @@
           "value": "persona: ricezione: latore"
         },
         {
-          "id": "person:deliver:delivered",
-          "value": "persona: consegna: oggetto consegnato"
+          "id": "person:exchange:exchanged",
+          "value": "persona: scambio diretto: oggetto scambiato"
         },
         {
-          "id": "person:deliver:sender",
-          "value": "persona: consegna: mittente"
-        },
-        {
-          "id": "person:deliver:recipient",
-          "value": "persona: consegna: destinatario"
+          "id": "person:exchange:recipient",
+          "value": "persona: scambio diretto: destinatario"
         },
         {
           "id": "person:transcription:copy",
@@ -2455,7 +2439,7 @@
         },
         {
           "id": "person:transcription:text",
-          "value": "persona: trascrizione: testo trascritto"
+          "value": "persona: trascrizione: antigrafo"
         },
         {
           "id": "person:collection:copy",
@@ -2476,10 +2460,6 @@
         {
           "id": "person:handwriting:hand",
           "value": "persona: scrittura: mano"
-        },
-        {
-          "id": "person:writing:text",
-          "value": "persona: stesura: testo"
         },
         {
           "id": "person:commission:manuscript",
@@ -2586,6 +2566,10 @@
           "value": "testo: invio: latore"
         },
         {
+          "id": "text:send:attachment",
+          "value": "testo: invio: allegato"
+        },
+        {
           "id": "text:reception:sender",
           "value": "testo: ricezione: mittente"
         },
@@ -2598,16 +2582,8 @@
           "value": "testo: ricezione: latore"
         },
         {
-          "id": "text:deliver:sender",
-          "value": "testo: consegna: mittente"
-        },
-        {
-          "id": "text:deliver:recipient",
-          "value": "testo: consegna: destinatario"
-        },
-        {
-          "id": "text:deliver:messenger",
-          "value": "testo: consegna: latore"
+          "id": "text:reception:attachment",
+          "value": "testo: ricezione: allegato"
         },
         {
           "id": "text:transcription:copy",
@@ -2618,56 +2594,12 @@
           "value": "testo: trascrizione: trascrittore"
         },
         {
-          "id": "text:writing:author",
-          "value": "testo: stesura: autore"
-        },
-        {
           "id": "text:collection:collector",
           "value": "testo: raccolta: raccolta"
         },
         {
           "id": "text:version:previous",
-          "value": "testo: redazione: precedente"
-        },
-        {
-          "id": "text:version:subsequent",
-          "value": "testo: redazione: successiva"
-        },
-        {
-          "id": "manuscript:send:sender",
-          "value": "manoscritto: invio: mittente"
-        },
-        {
-          "id": "manuscript:send:recipient",
-          "value": "manoscritto: invio: destinatario"
-        },
-        {
-          "id": "manuscript:send:messenger",
-          "value": "manoscritto: invio: latore"
-        },
-        {
-          "id": "manuscript:reception:sender",
-          "value": "manoscritto: ricezione: mittente"
-        },
-        {
-          "id": "manuscript:reception:recipient",
-          "value": "manoscritto: ricezione: destinatario"
-        },
-        {
-          "id": "manuscript:reception:messenger",
-          "value": "manoscritto: ricezione: latore"
-        },
-        {
-          "id": "manuscript:deliver:sender",
-          "value": "manoscritto: consegna: mittente"
-        },
-        {
-          "id": "manuscript:deliver:recipient",
-          "value": "manoscritto: consegna: destinatario"
-        },
-        {
-          "id": "manuscript:deliver:messenger",
-          "value": "manoscritto: consegna: latore"
+          "value": "testo: redazione: precedente di"
         },
         {
           "id": "manuscript:handwriting:hand",
@@ -2732,6 +2664,42 @@
         {
           "id": "manuscript:buy:seller",
           "value": "manoscritto: acquisto: venditore"
+        },
+        {
+          "id": "manuscript:send:sender",
+          "value": "manoscritto: invio: mittente"
+        },
+        {
+          "id": "manuscript:send:recipient",
+          "value": "manoscritto: invio: destinatario"
+        },
+        {
+          "id": "manuscript:send:messenger",
+          "value": "manoscritto: invio: latore"
+        },
+        {
+          "id": "manuscript:reception:sender",
+          "value": "manoscritto: ricezione: mittente"
+        },
+        {
+          "id": "manuscript:reception:recipient",
+          "value": "manoscritto: ricezione: destinatario"
+        },
+        {
+          "id": "manuscript:reception:messenger",
+          "value": "manoscritto: ricezione: latore"
+        },
+        {
+          "id": "manuscript:deliver:sender",
+          "value": "manoscritto: consegna: mittente"
+        },
+        {
+          "id": "manuscript:deliver:recipient",
+          "value": "manoscritto: consegna: destinatario"
+        },
+        {
+          "id": "manuscript:deliver:messenger",
+          "value": "manoscritto: consegna: latore"
         },
         {
           "id": "manuscript:restore:restorer",
