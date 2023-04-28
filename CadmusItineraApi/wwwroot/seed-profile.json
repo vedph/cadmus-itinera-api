@@ -1956,6 +1956,18 @@
       ]
     },
     {
+      "id": "doc-reference-types_bio@en",
+      "targetId": "doc-reference-types"
+    },
+    {
+      "id": "doc-reference-types_ms@en",
+      "targetId": "doc-reference-types"
+    },
+    {
+      "id": "doc-reference-types_txt@en",
+      "targetId": "doc-reference-types"
+    },
+    {
       "id": "event-types_bio@en",
       "entries": [
         {
@@ -2311,7 +2323,7 @@
       ]
     },
     {
-      "id": "event-relations@en",
+      "id": "event-relations_bio@en",
       "entries": [
         {
           "id": "person:birth:mother",
@@ -2552,55 +2564,12 @@
         {
           "id": "person:selling:buyer",
           "value": "persona: vende: acquirente"
-        },
-        {
-          "id": "text:send:sender",
-          "value": "testo: invio: mittente"
-        },
-        {
-          "id": "text:send:recipient",
-          "value": "testo: invio: destinatario"
-        },
-        {
-          "id": "text:send:messenger",
-          "value": "testo: invio: latore"
-        },
-        {
-          "id": "text:send:attachment",
-          "value": "testo: invio: allegato"
-        },
-        {
-          "id": "text:reception:sender",
-          "value": "testo: ricezione: mittente"
-        },
-        {
-          "id": "text:reception:recipient",
-          "value": "testo: ricezione: destinatario"
-        },
-        {
-          "id": "text:reception:messenger",
-          "value": "testo: ricezione: latore"
-        },
-        {
-          "id": "text:reception:attachment",
-          "value": "testo: ricezione: allegato"
-        },
-        {
-          "id": "text:transcription:copy",
-          "value": "testo: trascrizione: copia"
-        },
-        {
-          "id": "text:transcription:transcriber",
-          "value": "testo: trascrizione: trascrittore"
-        },
-        {
-          "id": "text:collection:collector",
-          "value": "testo: raccolta: raccolta"
-        },
-        {
-          "id": "text:version:previous",
-          "value": "testo: redazione: precedente di"
-        },
+        }
+      ]
+    },
+    {
+      "id": "event-relations_ms@en",
+      "entries": [
         {
           "id": "manuscript:handwriting:hand",
           "value": "manoscritto: scrittura: eid mano"
@@ -2704,6 +2673,59 @@
         {
           "id": "manuscript:restore:restorer",
           "value": "manoscritto: restauro: restauratore"
+        }
+      ]
+    },
+    {
+      "id": "event-relations_txt@en",
+      "entries": [
+        {
+          "id": "text:send:sender",
+          "value": "testo: invio: mittente"
+        },
+        {
+          "id": "text:send:recipient",
+          "value": "testo: invio: destinatario"
+        },
+        {
+          "id": "text:send:messenger",
+          "value": "testo: invio: latore"
+        },
+        {
+          "id": "text:send:attachment",
+          "value": "testo: invio: allegato"
+        },
+        {
+          "id": "text:reception:sender",
+          "value": "testo: ricezione: mittente"
+        },
+        {
+          "id": "text:reception:recipient",
+          "value": "testo: ricezione: destinatario"
+        },
+        {
+          "id": "text:reception:messenger",
+          "value": "testo: ricezione: latore"
+        },
+        {
+          "id": "text:reception:attachment",
+          "value": "testo: ricezione: allegato"
+        },
+        {
+          "id": "text:transcription:copy",
+          "value": "testo: trascrizione: copia"
+        },
+        {
+          "id": "text:transcription:transcriber",
+          "value": "testo: trascrizione: trascrittore"
+        },
+        {
+          "id": "text:collection:collector",
+          "value": "testo: raccolta: raccolta"
+        },
+        {
+          "id": "text:version:previous",
+          "value": "testo: redazione: precedente di"
         }
       ]
     },
