@@ -12,6 +12,8 @@ docker build . -t vedph2020/cadmus-itinera-api:4.1.2 -t vedph2020/cadmus-itinera
 
 ## History
 
+- 2023-05-12: updated packages and increased length of appsettings `SecureKey`.
+
 ### 4.1.2
 
 - 2023-04-21: updated thesauri.
