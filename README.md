@@ -5,14 +5,16 @@ This is the second iteration of Itinera and will replace the [old repository](ht
 Quick Docker image build:
 
 ```bash
-docker build . -t vedph2020/cadmus-itinera-api:4.1.2 -t vedph2020/cadmus-itinera-api:latest
+docker build . -t vedph2020/cadmus-itinera-api:4.1.3 -t vedph2020/cadmus-itinera-api:latest
 ```
 
 (replace with the current version).
 
 ## History
 
-- 2023-05-16: updated packages.
+### 4.1.3
+
+- 2023-05-16: updated packages and renamed containers in docker-compose.
 - 2023-05-12: updated packages and increased length of appsettings `SecureKey`.
 
 ### 4.1.2
