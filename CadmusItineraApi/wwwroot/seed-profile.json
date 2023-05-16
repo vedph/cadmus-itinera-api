@@ -2422,7 +2422,7 @@
           "value": "persona: invio: destinatario"
         },
         {
-          "id": "person:send:messenger",
+          "id": "person:send:carrier",
           "value": "persona: invio: latore"
         },
         {
@@ -2434,7 +2434,7 @@
           "value": "persona: ricezione: mittente"
         },
         {
-          "id": "person:reception:messenger",
+          "id": "person:reception:carrier",
           "value": "persona: ricezione: latore"
         },
         {
@@ -2643,7 +2643,7 @@
           "value": "manoscritto: invio: destinatario"
         },
         {
-          "id": "manuscript:send:messenger",
+          "id": "manuscript:send:carrier",
           "value": "manoscritto: invio: latore"
         },
         {
@@ -2655,7 +2655,7 @@
           "value": "manoscritto: ricezione: destinatario"
         },
         {
-          "id": "manuscript:reception:messenger",
+          "id": "manuscript:reception:carrier",
           "value": "manoscritto: ricezione: latore"
         },
         {
@@ -2667,7 +2667,7 @@
           "value": "manoscritto: consegna: destinatario"
         },
         {
-          "id": "manuscript:deliver:messenger",
+          "id": "manuscript:deliver:carrier",
           "value": "manoscritto: consegna: latore"
         },
         {
@@ -2688,7 +2688,7 @@
           "value": "testo: invio: destinatario"
         },
         {
-          "id": "text:send:messenger",
+          "id": "text:send:carrier",
           "value": "testo: invio: latore"
         },
         {
@@ -2704,7 +2704,7 @@
           "value": "testo: ricezione: destinatario"
         },
         {
-          "id": "text:reception:messenger",
+          "id": "text:reception:carrier",
           "value": "testo: ricezione: latore"
         },
         {
