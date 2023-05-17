@@ -12,6 +12,10 @@ docker build . -t vedph2020/cadmus-itinera-api:4.1.3 -t vedph2020/cadmus-itinera
 
 ## History
 
+### 4.2.0
+
+- 2023-05-17: updated packages for minor model changes in Codicology and Itinera.
+
 ### 4.1.3
 
 - 2023-05-16: updated packages and renamed containers in docker-compose.
