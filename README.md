@@ -12,6 +12,8 @@ docker build . -t vedph2020/cadmus-itinera-api:4.1.3 -t vedph2020/cadmus-itinera
 
 ## History
 
+- 2023-05-18: updated packages for graph infrastructure (see [here](https://myrmex.github.io/overview/cadmus/dev/history/b-graph/)).
+
 ### 4.2.0
 
 - 2023-05-17: updated packages for minor model changes in Codicology and Itinera.
