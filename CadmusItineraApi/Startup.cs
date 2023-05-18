@@ -36,6 +36,7 @@ using Cadmus.Export.Preview;
 using Cadmus.Core.Storage;
 using Cadmus.Itinera.Services;
 using System.Globalization;
+using Cadmus.Graph.Extras;
 
 namespace CadmusItineraApi
 {
@@ -237,6 +238,42 @@ namespace CadmusItineraApi
             return new CadmusPreviewer(factory, repository);
         }
 
+        private void ConfigureIndexServices(IServiceCollection services)
+        {
+            // item index factory provider
+            string indexCS = string.Format(
+                Configuration.GetConnectionString("Index")!,
+                Configuration.GetValue<string>("DatabaseNames:Data"));
+
+            services.AddSingleton<IItemIndexFactoryProvider>(_ =>
+                new StandardItemIndexFactoryProvider(indexCS));
+
+            // graph repository
+            services.AddSingleton<IGraphRepository>(_ =>
+            {
+                var repository = new MySqlGraphRepository();
+                repository.Configure(new SqlOptions
+                {
+                    ConnectionString = indexCS
+                });
+                return repository;
+            });
+
+            // graph updater
+            services.AddTransient<GraphUpdater>(provider =>
+            {
+                IRepositoryProvider rp = provider.GetService<IRepositoryProvider>()!;
+                return new(provider.GetService<IGraphRepository>()!)
+                {
+                    // we want item-eid as an additional metadatum, derived from
+                    // eid in the role-less MetadataPart of the item, when present
+                    MetadataSupplier = new MetadataSupplier()
+                        .SetCadmusRepository(rp.CreateRepository())
+                        .AddItemEid()
+                };
+            });
+        }
+
         /// <summary>
         /// Configures the services.
         /// </summary>
@@ -296,23 +333,9 @@ namespace CadmusItineraApi
             services.AddSingleton<IItemBrowserFactoryProvider>(_ =>
                 new StandardItemBrowserFactoryProvider(
                     Configuration.GetConnectionString("Default")!));
-            // item index factory provider
-            string indexCS = string.Format(
-                Configuration.GetConnectionString("Index")!,
-                Configuration.GetValue<string>("DatabaseNames:Data"));
-            services.AddSingleton<IItemIndexFactoryProvider>(_ =>
-                new StandardItemIndexFactoryProvider(indexCS));
 
-            // graph repository
-            services.AddSingleton<IGraphRepository>(_ =>
-            {
-                var repository = new MySqlGraphRepository();
-                repository.Configure(new SqlOptions
-                {
-                    ConnectionString = indexCS
-                });
-                return repository;
-            });
+            // index and graph
+            ConfigureIndexServices(services);
 
             // previewer
             services.AddSingleton(p => GetPreviewer(p));
