@@ -3173,6 +3173,15 @@
       ]
     },
     {
+      "id": "pin-link-settings@en",
+      "entries": [
+        {
+          "id": "switch-mode",
+          "value": "true"
+        }
+      ]
+    },
+    {
       "id": "related-person-types@en",
       "entries": [
         {

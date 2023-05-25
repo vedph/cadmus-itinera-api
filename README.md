@@ -12,6 +12,9 @@ docker build . -t vedph2020/cadmus-itinera-api:4.1.3 -t vedph2020/cadmus-itinera
 
 ## History
 
+### 5.0.0
+
+- 2023-05-25: updated packages (breaking change in general parts introducing [AssertedCompositeId](https://github.com/vedph/cadmus-bricks-shell/blob/master/projects/myrmidon/cadmus-refs-asserted-ids/README.md#asserted-composite-id)).
 - 2023-05-18: updated packages for graph infrastructure (see [here](https://myrmex.github.io/overview/cadmus/dev/history/b-graph/)).
 
 ### 4.2.0
