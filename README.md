@@ -5,14 +5,18 @@ This is the second iteration of Itinera and will replace the [old repository](ht
 Quick Docker image build:
 
 ```bash
-docker build . -t vedph2020/cadmus-itinera-api:5.0.2 -t vedph2020/cadmus-itinera-api:latest
+docker build . -t vedph2020/cadmus-itinera-api:5.0.3 -t vedph2020/cadmus-itinera-api:latest
 ```
 
 (replace with the current version).
 
 ## History
 
-- 2023-05-26: added entry to `metadata-types` thesaurus.
+### 5.0.3
+
+- 2023-05-26:
+  - added entry to `metadata-types` thesaurus.
+  - updated packages to fix save node/triple in graph.
 
 ### 5.0.2
 
