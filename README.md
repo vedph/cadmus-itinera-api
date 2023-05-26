@@ -5,12 +5,16 @@ This is the second iteration of Itinera and will replace the [old repository](ht
 Quick Docker image build:
 
 ```bash
-docker build . -t vedph2020/cadmus-itinera-api:5.0.0 -t vedph2020/cadmus-itinera-api:latest
+docker build . -t vedph2020/cadmus-itinera-api:5.0.1 -t vedph2020/cadmus-itinera-api:latest
 ```
 
 (replace with the current version).
 
 ## History
+
+### 5.0.1
+
+- 2023-05-26: updated `ReferencedTextsPart` to use `AssertedCompositeId` for `targetId`.
 
 ### 5.0.0
 
