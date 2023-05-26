@@ -12,6 +12,10 @@ docker build . -t vedph2020/cadmus-itinera-api:5.0.1 -t vedph2020/cadmus-itinera
 
 ## History
 
+- 2023-05-26:
+  - updated packages.
+  - added thesauri for role-dependent events.
+
 ### 5.0.1
 
 - 2023-05-26: updated `ReferencedTextsPart` to use `AssertedCompositeId` for `targetId`.
