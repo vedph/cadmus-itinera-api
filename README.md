@@ -12,6 +12,8 @@ docker build . -t vedph2020/cadmus-itinera-api:5.0.2 -t vedph2020/cadmus-itinera
 
 ## History
 
+- 2023-05-26: added entry to `metadata-types` thesaurus.
+
 ### 5.0.2
 
 - 2023-05-26:
