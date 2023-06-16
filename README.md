@@ -12,6 +12,8 @@ docker build . -t vedph2020/cadmus-itinera-api:5.0.4 -t vedph2020/cadmus-itinera
 
 ## History
 
+- 2023-06-16: replaced MySql with PostgreSQL (except for biblio).
+
 ### 5.0.4
 
 - 2023-06-02: updated packages.
