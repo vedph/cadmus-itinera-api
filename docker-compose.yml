@@ -27,33 +27,18 @@ services:
     networks:
       - cadmus-itinera-network
 
-  # MySql
-  cadmus-itinera-mysql:
-    image: mysql
-    container_name: cadmus-itinera-mysql
-    command: --default-authentication-plugin=mysql_native_password
-    cap_add:
-      - SYS_NICE
-    environment:
-      MYSQL_ROOT_PASSWORD: mysql
-      MYSQL_ROOT_HOST: '%'
-    ports:
-      - 3306:3306
-    networks:
-      - cadmus-itinera-network
-
   # Biblio API
   cadmus-biblio-api:
-    image: vedph2020/cadmus_biblio_api:4.0.0
+    image: vedph2020/cadmus_biblio_api:5.0.0
     container_name: cadmus-biblio-api
     ports:
       - 61691:80
     depends_on:
       - cadmus-itinera-mongo
-      - cadmus-itinera-mysql
+      - cadmus-itinera-pgsql
     environment:
       - CONNECTIONSTRINGS__DEFAULT=mongodb://cadmus-itinera-mongo:27017/{0}
-      - CONNECTIONSTRINGS__BIBLIO=Server=cadmus-itinera-mysql;port=3306;Database={0};Uid=root;Pwd=mysql
+      - CONNECTIONSTRINGS__BIBLIO=Server=cadmus-itinera-pgsql;port=5432;Database={0};User Id=postgres;Password=postgres;Include Error Detail=True
       - SEED__BIBLIODELAY=50
       - SERILOG__CONNECTIONSTRING=mongodb://cadmus-itinera-mongo:27017/{0}-log
       - STOCKUSERS__0__PASSWORD=P4ss-W0rd!
@@ -62,7 +47,7 @@ services:
 
   # Cadmus API
   cadmus-itinera-api:
-    image: vedph2020/cadmus-itinera-api:5.0.4
+    image: vedph2020/cadmus-itinera-api:6.0.0
     container_name: cadmus-itinera-api
     ports:
       - 5052:80

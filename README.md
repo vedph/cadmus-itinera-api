@@ -5,14 +5,16 @@ This is the second iteration of Itinera and will replace the [old repository](ht
 Quick Docker image build:
 
 ```bash
-docker build . -t vedph2020/cadmus-itinera-api:5.0.4 -t vedph2020/cadmus-itinera-api:latest
+docker build . -t vedph2020/cadmus-itinera-api:6.0.0 -t vedph2020/cadmus-itinera-api:latest
 ```
 
 (replace with the current version).
 
 ## History
 
-- 2023-06-16: replaced MySql with PostgreSQL (except for biblio).
+### 6.0.0
+
+- 2023-06-16: replaced MySql with PostgreSQL.
 
 ### 5.0.4
 
