@@ -47,7 +47,7 @@ services:
 
   # Cadmus API
   cadmus-itinera-api:
-    image: vedph2020/cadmus-itinera-api:6.0.3
+    image: vedph2020/cadmus-itinera-api:6.0.4
     container_name: cadmus-itinera-api
     ports:
       - 5052:80
