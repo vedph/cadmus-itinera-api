@@ -12,6 +12,8 @@ docker build . -t vedph2020/cadmus-itinera-api:6.0.6 -t vedph2020/cadmus-itinera
 
 ## History
 
+- 2023-07-17: updated packages (added `ids` to hand in codicology).
+
 ### 6.0.6
 
 - 2023-07-12: updated packages.
