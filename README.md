@@ -12,6 +12,8 @@ docker build . -t vedph2020/cadmus-itinera-api:6.0.7 -t vedph2020/cadmus-itinera
 
 ## History
 
+- 2023-07-24: updated packages.
+
 ### 6.0.7
 
 - 2023-07-20: refactored [logging](https://myrmex.github.io/overview/cadmus/dev/history/b-logging/).
