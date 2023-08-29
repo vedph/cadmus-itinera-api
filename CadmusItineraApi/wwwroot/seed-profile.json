@@ -631,14 +631,6 @@
           "value": "lacunoso"
         },
         {
-          "id": "interrupted",
-          "value": "interrotto"
-        },
-        {
-          "id": "incomplete",
-          "value": "incompleto"
-        },
-        {
           "id": "excerpts",
           "value": "estratti"
         }
@@ -2007,6 +1999,10 @@
           "value": "persona: professione: frate"
         },
         {
+          "id": "person.job.monk",
+          "value": "persona: professione: monaco"
+        },
+        {
           "id": "person.job.prior",
           "value": "persona: professione: priore"
         },
@@ -2015,8 +2011,28 @@
           "value": "persona: professione: canonico"
         },
         {
+          "id": "person.job.emperor",
+          "value": "persona: professione: imperatore"
+        },
+        {
           "id": "person.job.king",
           "value": "persona: professione: sovrano"
+        },
+        {
+          "id": "person.job.duke",
+          "value": "persona: professione: duca"
+        },
+        {
+          "id": "person.job.earl",
+          "value": "persona: professione: conte"
+        },
+        {
+          "id": "person.job.prince",
+          "value": "persona: professione: principe"
+        },
+        {
+          "id": "person.job.knight",
+          "value": "persona: professione: cavaliere"
         },
         {
           "id": "person.job.politician",
@@ -2075,6 +2091,10 @@
           "value": "persona: professione: segretario"
         },
         {
+          "id": "person.job.physician",
+          "value": "persona: professione: medico"
+        },
+        {
           "id": "person.job.merchant",
           "value": "persona: professione: mercante"
         },
@@ -2089,26 +2109,6 @@
         {
           "id": "person.job.servant",
           "value": "persona: professione: servo"
-        },
-        {
-          "id": "person.job.emperor",
-          "value": "persona: professione: imperatore"
-        },
-        {
-          "id": "person.job.physician",
-          "value": "persona: professione: medico"
-        },
-        {
-          "id": "person.job.duke",
-          "value": "persona: professione: duca"
-        },
-        {
-          "id": "person.job.earl",
-          "value": "persona: professione: conte"
-        },
-        {
-          "id": "person.job.prince",
-          "value": "persona: professione: principe"
         },
         {
           "id": "person.teacher-of",
@@ -2177,6 +2177,10 @@
         {
           "id": "person.reception",
           "value": "persona: ricezione"
+        },
+        {
+          "id": "person.deliver",
+          "value": "persona: consegna"
         },
         {
           "id": "person.exchange",
@@ -2288,8 +2292,8 @@
           "value": "manoscritto: ricezione"
         },
         {
-          "id": "manuscript.deliver",
-          "value": "manoscritto: consegna"
+          "id": "manuscript.exchange",
+          "value": "manoscritto: scambio diretto"
         },
         {
           "id": "manuscript.restore",
@@ -2307,6 +2311,10 @@
         {
           "id": "text.reception",
           "value": "testo: ricezione"
+        },
+        {
+          "id": "text.exchange",
+          "value": "testo: scambio diretto"
         },
         {
           "id": "text.transcription",
@@ -2426,6 +2434,10 @@
           "value": "persona: invio: latore"
         },
         {
+          "id": "person:send:attachment",
+          "value": "persona: invio: allegato"
+        },
+        {
           "id": "person:reception:received",
           "value": "persona: ricezione: oggetto ricevuto"
         },
@@ -2438,12 +2450,36 @@
           "value": "persona: ricezione: latore"
         },
         {
+          "id": "person:reception:attachment",
+          "value": "persona: ricezione: allegato"
+        },
+        {
+          "id": "person:deliver:sender",
+          "value": "persona: consegna: mittente"
+        },
+        {
+          "id": "person:deliver:recipient",
+          "value": "persona: consegna: destinatario"
+        },
+        {
+          "id": "person:deliver:delivered",
+          "value": "persona: consegna: oggetto preso in consegna"
+        },
+        {
+          "id": "person:deliver:attachment",
+          "value": "persona: consegna: allegato"
+        },
+        {
           "id": "person:exchange:exchanged",
           "value": "persona: scambio diretto: oggetto scambiato"
         },
         {
           "id": "person:exchange:recipient",
           "value": "persona: scambio diretto: destinatario"
+        },
+        {
+          "id": "person:exchange:attachment",
+          "value": "persona: scambio diretto: allegato"
         },
         {
           "id": "person:transcription:copy",
@@ -2647,6 +2683,10 @@
           "value": "manoscritto: invio: latore"
         },
         {
+          "id": "manuscript:send:attachment",
+          "value": "manoscritto: invio: allegato"
+        },
+        {
           "id": "manuscript:reception:sender",
           "value": "manoscritto: ricezione: mittente"
         },
@@ -2659,16 +2699,20 @@
           "value": "manoscritto: ricezione: latore"
         },
         {
-          "id": "manuscript:deliver:sender",
-          "value": "manoscritto: consegna: mittente"
+          "id": "manuscript:reception:attachment",
+          "value": "manoscritto: ricezione: allegato"
         },
         {
-          "id": "manuscript:deliver:recipient",
-          "value": "manoscritto: consegna: destinatario"
+          "id": "manuscript:exchange:sender",
+          "value": "manoscritto: scambio diretto: consegna"
         },
         {
-          "id": "manuscript:deliver:carrier",
-          "value": "manoscritto: consegna: latore"
+          "id": "manuscript:exchange:recipient",
+          "value": "manoscritto: scambio diretto: destinatario"
+        },
+        {
+          "id": "manuscript:exchange:attachment",
+          "value": "manoscritto: scambio diretto: allegato"
         },
         {
           "id": "manuscript:restore:restorer",
@@ -2710,6 +2754,18 @@
         {
           "id": "text:reception:attachment",
           "value": "testo: ricezione: allegato"
+        },
+        {
+          "id": "text:exchange:sender",
+          "value": "testo: scambio diretto: consegna"
+        },
+        {
+          "id": "text:exchange:recipient",
+          "value": "testo: scambio diretto: destinatario"
+        },
+        {
+          "id": "text:exchange:attachment",
+          "value": "testo: scambio diretto: allegato"
         },
         {
           "id": "text:transcription:copy",
