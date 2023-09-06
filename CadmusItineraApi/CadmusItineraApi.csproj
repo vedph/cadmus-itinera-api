@@ -24,10 +24,10 @@
     <PackageReference Include="Cadmus.Graph" Version="3.0.7" />
     <PackageReference Include="Cadmus.Graph.Ef.PgSql" Version="3.0.7" />
     <PackageReference Include="Cadmus.Graph.Extras" Version="3.0.7" />
-    <PackageReference Include="Cadmus.Itinera.Services" Version="6.0.9" />
+    <PackageReference Include="Cadmus.Itinera.Services" Version="6.1.0" />
     <PackageReference Include="Cadmus.Seed.Codicology.Parts" Version="5.0.10" />
     <PackageReference Include="Cadmus.Seed.General.Parts" Version="5.0.5" />
-    <PackageReference Include="Cadmus.Seed.Itinera.Parts" Version="6.0.9" />
+    <PackageReference Include="Cadmus.Seed.Itinera.Parts" Version="6.1.0" />
     <PackageReference Include="Cadmus.Seed.Philology.Parts" Version="7.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.10" />

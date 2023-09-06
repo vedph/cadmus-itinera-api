@@ -12,6 +12,7 @@ docker build . -t vedph2020/cadmus-itinera-api:6.0.10 -t vedph2020/cadmus-itiner
 
 ## History
 
+- 2023-09-06: updated packages after removing `Assertion` from `ReferencedText`.
 - 2023-09-05: updated packages.
 
 ### 6.0.10
