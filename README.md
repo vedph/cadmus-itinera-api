@@ -2,15 +2,19 @@
 
 This is the second iteration of Itinera and will replace the [old repository](https://github.com/vedph/cadmus_itinera_api).
 
-Quick Docker image build:
+🐋 Quick Docker image build:
 
 ```bash
-docker build . -t vedph2020/cadmus-itinera-api:6.0.11 -t vedph2020/cadmus-itinera-api:latest
+docker build . -t vedph2020/cadmus-itinera-api:6.0.12 -t vedph2020/cadmus-itinera-api:latest
 ```
 
 (replace with the current version).
 
 ## History
+
+### 6.0.12
+
+- 2023-09-25: updated packages and added import controllers.
 
 ### 6.0.11
 
