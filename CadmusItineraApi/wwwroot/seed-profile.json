@@ -2187,6 +2187,10 @@
           "value": "persona: scambio diretto"
         },
         {
+          "id": "person.reading",
+          "value": "persona: lettura"
+        },
+        {
           "id": "person.transcription",
           "value": "persona: trascrizione"
         },
@@ -2315,6 +2319,10 @@
         {
           "id": "text.exchange",
           "value": "testo: scambio diretto"
+        },
+        {
+          "id": "text.reading",
+          "value": "testo: lettura"
         },
         {
           "id": "text.transcription",
@@ -2480,6 +2488,14 @@
         {
           "id": "person:exchange:attachment",
           "value": "persona: scambio diretto: allegato"
+        },
+        {
+          "id": "person:reading:text-read",
+          "value": "persona: lettura: testo letto"
+        },
+        {
+          "id": "person:reading:given-by",
+          "value": "persona: lettura: mediata da"
         },
         {
           "id": "person:transcription:copy",
@@ -2766,6 +2782,14 @@
         {
           "id": "text:exchange:attachment",
           "value": "testo: scambio diretto: allegato"
+        },
+        {
+          "id": "text:reading:read-by",
+          "value": " text: lettura: letto da"
+        },
+        {
+          "id": "text:reading:given-by",
+          "value": " text: lettura: mediata da"
         },
         {
           "id": "text:transcription:copy",
