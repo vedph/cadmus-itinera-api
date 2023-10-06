@@ -5,12 +5,14 @@ This is the second iteration of Itinera and will replace the [old repository](ht
 🐋 Quick Docker image build:
 
 ```bash
-docker build . -t vedph2020/cadmus-itinera-api:6.0.12 -t vedph2020/cadmus-itinera-api:latest
+docker build . -t vedph2020/cadmus-itinera-api:7.0.0 -t vedph2020/cadmus-itinera-api:latest
 ```
 
 (replace with the current version).
 
 ## History
+
+### 7.0.0
 
 - 2023-10-05: ⚠️ updated packages (new graph DB schema).
 - 2023-10-03: updated thesauri.
