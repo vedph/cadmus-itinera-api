@@ -12,6 +12,10 @@ docker build . -t vedph2020/cadmus-itinera-api:7.0.0 -t vedph2020/cadmus-itinera
 
 ## History
 
+### 8.0.0
+
+- 2023-12-05: ⚠️ upgraded to NET 8.
+
 ### 7.0.0
 
 - 2023-10-05: ⚠️ updated packages (new graph DB schema).
