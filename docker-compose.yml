@@ -29,10 +29,10 @@ services:
 
   # Biblio API
   cadmus-biblio-api:
-    image: vedph2020/cadmus-biblio-api:5.1.1
+    image: vedph2020/cadmus-biblio-api:6.0.1
     container_name: cadmus-biblio-api
     ports:
-      - 61691:80
+      - 61691:8080
     depends_on:
       - cadmus-itinera-mongo
       - cadmus-itinera-pgsql
@@ -47,10 +47,10 @@ services:
 
   # Cadmus API
   cadmus-itinera-api:
-    image: vedph2020/cadmus-itinera-api:7.0.0
+    image: vedph2020/cadmus-itinera-api:8.0.1
     container_name: cadmus-itinera-api
     ports:
-      - 5052:80
+      - 5052:8080
     depends_on:
       - cadmus-itinera-mongo
       - cadmus-itinera-pgsql

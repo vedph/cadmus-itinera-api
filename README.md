@@ -5,12 +5,18 @@ This is the second iteration of Itinera and will replace the [old repository](ht
 🐋 Quick Docker image build:
 
 ```bash
-docker build . -t vedph2020/cadmus-itinera-api:7.0.0 -t vedph2020/cadmus-itinera-api:latest
+docker build . -t vedph2020/cadmus-itinera-api:8.0.1 -t vedph2020/cadmus-itinera-api:latest
 ```
 
 (replace with the current version).
 
 ## History
+
+### 8.0.1
+
+- 2024-06-25:
+  - updated packages.
+  - refactored [log configuration](https://myrmex.github.io/overview/cadmus/dev/history/b-logging-cfg/). 
 
 ### 8.0.0
 
