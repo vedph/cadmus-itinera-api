@@ -12,6 +12,9 @@ docker build . -t vedph2020/cadmus-itinera-api:8.0.1 -t vedph2020/cadmus-itinera
 
 ## History
 
+### 9.0.0
+
+- 2024-11-27: ⚠️ upgraded to .NET 9.
 - 2024-07-19: updated packages.
 - 2024-07-12: updated packages.
 
