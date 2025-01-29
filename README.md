@@ -2,16 +2,21 @@
 
 This is the second iteration of Itinera and will replace the [old repository](https://github.com/vedph/cadmus_itinera_api).
 
-🐋 Quick Docker image build:
+API service for Cadmus [FeBo](https://erc-febo.unitn.it) (_Federalism and Border Management in Greek Antiquity_).
+
+🐋 Quick Docker image build (you need to have a `buildx` container):
 
 ```bash
-docker build . -t vedph2020/cadmus-itinera-api:8.0.1 -t vedph2020/cadmus-itinera-api:latest
+docker buildx create --use
+
+docker buildx build . --platform linux/amd64,linux/arm64 -t vedph2020/cadmus-itinera-api:8.0.1 -t vedph2020/cadmus-itinera-api:latest --push
 ```
 
 (replace with the current version).
 
 ## History
 
+- 2025-01-29: updated packages.
 - 2025-01-06: updated packages.
 - 2024-12-06: updated packages.
 
