@@ -213,7 +213,7 @@ public static class Program
             app.MapScalarApiReference(options =>
             {
                 options.WithTitle("Cadmus Itinera API")
-                       .WithPreferredScheme("Bearer");
+                       .AddPreferredSecuritySchemes("Bearer");
             });
 
             Log.Information("Running API");

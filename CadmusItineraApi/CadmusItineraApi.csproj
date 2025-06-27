@@ -12,6 +12,7 @@
 	<ItemGroup>
 		<PackageReference Include="Cadmus.Api.Config" Version="10.1.15" />
 		<PackageReference Include="Cadmus.Api.Controllers" Version="12.0.0" />
+		<PackageReference Include="Cadmus.Api.Controllers.Export" Version="0.0.1" />
 		<PackageReference Include="Cadmus.Api.Controllers.Import" Version="11.0.4" />
 		<PackageReference Include="Cadmus.Api.Models" Version="10.1.14" />
 		<PackageReference Include="Cadmus.Api.Services" Version="12.0.0" />

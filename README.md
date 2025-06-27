@@ -14,6 +14,10 @@ docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64,windows/a
 
 ## History
 
+- 2025-06-27:
+  - updated packages.
+  - added `Cadmus.Api.Controllers.Export`.
+
 ### 9.0.1
 
 - 2025-06-03:
