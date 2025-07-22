@@ -1152,6 +1152,26 @@
           "value": "---"
         },
         {
+          "id": "ita",
+          "value": "italiano"
+        },
+        {
+          "id": "lat",
+          "value": "latino"
+        },
+        {
+          "id": "vlg-ita",
+          "value": "volgare (ita)"
+        },
+        {
+          "id": "lat-vlg",
+          "value": "latino+volgare"
+        },
+        {
+          "id": "grc",
+          "value": "greco"
+        },
+        {
           "id": "eng",
           "value": "inglese"
         },
@@ -1164,24 +1184,8 @@
           "value": "tedesco"
         },
         {
-          "id": "grc",
-          "value": "greco"
-        },
-        {
           "id": "gre",
           "value": "neogreco"
-        },
-        {
-          "id": "ita",
-          "value": "italiano"
-        },
-        {
-          "id": "lat",
-          "value": "latino"
-        },
-        {
-          "id": "lat-vlg",
-          "value": "latino+volgare"
         },
         {
           "id": "spa",
@@ -1392,12 +1396,16 @@
           "value": "latino"
         },
         {
-          "id": "grc",
-          "value": "greco"
+          "id": "vlg-ita",
+          "value": "volgare (ita)"
         },
         {
           "id": "lat-vlg",
           "value": "latino+volgare"
+        },
+        {
+          "id": "grc",
+          "value": "greco"
         },
         {
           "id": "other",

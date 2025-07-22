@@ -14,6 +14,7 @@ docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64,windows/a
 
 ## History
 
+- 2025-07-22: updated thesauri.
 - 2025-07-16: updated packages.
 - 2025-06-27:
   - updated packages.
