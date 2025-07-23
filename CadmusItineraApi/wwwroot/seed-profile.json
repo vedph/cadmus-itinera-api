@@ -494,10 +494,6 @@
       "id": "cod-binding-board-materials@en",
       "entries": [
         {
-          "id": "-",
-          "value": "---"
-        },
-        {
           "id": "wood",
           "value": "legno"
         },
@@ -508,16 +504,16 @@
         {
           "id": "other",
           "value": "altro"
+        },
+        {
+          "id": "-",
+          "value": "---"
         }
       ]
     },
     {
       "id": "cod-binding-cover-materials@en",
       "entries": [
-        {
-          "id": "-",
-          "value": "---"
-        },
         {
           "id": "skin",
           "value": "pelle"
@@ -545,6 +541,10 @@
         {
           "id": "other",
           "value": "altro"
+        },
+        {
+          "id": "-",
+          "value": "---"
         }
       ]
     },
@@ -587,12 +587,12 @@
       ]
     },
     {
+      "id": "cod-content-annotation-languages@en",
+      "targetId": "cod-edit-languages"
+    },
+    {
       "id": "cod-content-annotation-types@en",
       "entries": [
-        {
-          "id": "-",
-          "value": "---"
-        },
         {
           "id": "rubric",
           "value": "rubrica"
@@ -631,6 +631,14 @@
           "value": "lacunoso"
         },
         {
+          "id": "interrupted",
+          "value": "interrotto"
+        },
+        {
+          "id": "incomplete",
+          "value": "incompleto"
+        },
+        {
           "id": "excerpts",
           "value": "estratti"
         }
@@ -648,6 +656,10 @@
           "value": "bottega"
         },
         {
+          "id": "scribe",
+          "value": "copista"
+        },
+        {
           "id": "other",
           "value": "altro"
         }
@@ -663,6 +675,10 @@
         {
           "id": "red",
           "value": "rosso"
+        },
+        {
+          "id": "purplered",
+          "value": "porpora"
         },
         {
           "id": "green",
@@ -685,6 +701,10 @@
           "value": "turchese"
         },
         {
+          "id": "pink",
+          "value": "rosa"
+        },
+        {
           "id": "other",
           "value": "altro"
         }
@@ -699,7 +719,7 @@
         },
         {
           "id": "pag-inc.sketch",
-          "value": "bozza"
+          "value": "incompiuto"
         },
         {
           "id": "pag-inc.ill",
@@ -714,12 +734,32 @@
           "value": "iniziali"
         },
         {
+          "id": "pag-dec.blank",
+          "value": "spazi bianchi"
+        },
+        {
+          "id": "pag-dec.sketch",
+          "value": "incompiuto"
+        },
+        {
+          "id": "pag-dec.ill",
+          "value": "illustrazione"
+        },
+        {
+          "id": "pag-dec.orn",
+          "value": "ornamentazione"
+        },
+        {
+          "id": "pag-dec.ini",
+          "value": "iniziali"
+        },
+        {
           "id": "ill.blank",
           "value": "spazio bianco"
         },
         {
           "id": "ill.sketch",
-          "value": "bozza"
+          "value": "incompiuto"
         },
         {
           "id": "orn.blank",
@@ -727,7 +767,15 @@
         },
         {
           "id": "orn.sketch",
-          "value": "bozza"
+          "value": "incompiuto"
+        },
+        {
+          "id": "dia.blank",
+          "value": "spazi bianchi"
+        },
+        {
+          "id": "dia.sketch",
+          "value": "incompiuto"
         },
         {
           "id": "ini-pla.blank",
@@ -735,7 +783,7 @@
         },
         {
           "id": "ini-pla.sketch",
-          "value": "bozza"
+          "value": "incompiuto"
         },
         {
           "id": "ini-pla.guide",
@@ -747,7 +795,7 @@
         },
         {
           "id": "ini-wat.sketch",
-          "value": "bozza"
+          "value": "incompiuto"
         },
         {
           "id": "ini-wat.guide",
@@ -759,7 +807,7 @@
         },
         {
           "id": "ini-orn.sketch",
-          "value": "bozza"
+          "value": "incompiuto"
         },
         {
           "id": "ini-orn.guide",
@@ -771,10 +819,22 @@
         },
         {
           "id": "ini-fig.sketch",
-          "value": "bozza"
+          "value": "incompiuto"
         },
         {
           "id": "ini-fig.guide",
+          "value": "lettere guida"
+        },
+        {
+          "id": "ini-his.blank",
+          "value": "spazio bianco"
+        },
+        {
+          "id": "ini-his.sketch",
+          "value": "incompiuto"
+        },
+        {
+          "id": "ini-his.guide",
           "value": "lettere guida"
         },
         {
@@ -783,7 +843,7 @@
         },
         {
           "id": "par.sketch",
-          "value": "bozza"
+          "value": "incompiuto"
         }
       ]
     },
@@ -792,11 +852,27 @@
       "entries": [
         {
           "id": "leaf",
-          "value": "foglia"
+          "value": "oro in foglia"
         },
         {
           "id": "powder",
-          "value": "polvere"
+          "value": "oro a conchiglia"
+        },
+        {
+          "id": "other",
+          "value": "altre lamine metall."
+        },
+        {
+          "id": "punch-marks",
+          "value": "punzonature"
+        },
+        {
+          "id": "sgraffito",
+          "value": "incisioni"
+        },
+        {
+          "id": "stippled",
+          "value": "graniture"
         }
       ]
     },
@@ -834,6 +910,10 @@
         {
           "id": "ill.other",
           "value": "altro"
+        },
+        {
+          "id": "dia.-",
+          "value": ""
         },
         {
           "id": "ini-pla.aligned",
@@ -881,6 +961,18 @@
         },
         {
           "id": "ini-fig.inside",
+          "value": "annegata"
+        },
+        {
+          "id": "ini-his.aligned",
+          "value": "allineata"
+        },
+        {
+          "id": "ini-his.hanging",
+          "value": "sporgente"
+        },
+        {
+          "id": "ini-his.inside",
           "value": "annegata"
         },
         {
@@ -939,12 +1031,20 @@
           "value": "pagina incipitaria"
         },
         {
+          "id": "pag-dec",
+          "value": "pagina decorata"
+        },
+        {
           "id": "ill",
           "value": "illustrazione"
         },
         {
           "id": "orn",
           "value": "ornamentazione"
+        },
+        {
+          "id": "dia",
+          "value": "diagramma"
         },
         {
           "id": "ini-pla",
@@ -960,11 +1060,15 @@
         },
         {
           "id": "ini-fig",
+          "value": "iniziali figurate"
+        },
+        {
+          "id": "ini-his",
           "value": "iniziali istoriate"
         },
         {
           "id": "par",
-          "value": "paragrafematici"
+          "value": "peritestuali"
         },
         {
           "id": "wsp",
@@ -975,6 +1079,18 @@
     {
       "id": "cod-decoration-element-typologies@en",
       "entries": [
+        {
+          "id": "pag-inc.architectural",
+          "value": "frontespizio architettonico"
+        },
+        {
+          "id": "pag-dec.frontispiece",
+          "value": "antiporta"
+        },
+        {
+          "id": "pag-dec.architectural",
+          "value": "frontespizio architettonico"
+        },
         {
           "id": "ill.miniature",
           "value": "miniatura"
@@ -989,27 +1105,11 @@
         },
         {
           "id": "ill.papyrus",
-          "value": "papyrus style"
+          "value": "campo libero"
         },
         {
-          "id": "orn.frieze-fig",
-          "value": "fregio con figura"
-        },
-        {
-          "id": "orn.frieze-orn",
-          "value": "fregio ornato"
-        },
-        {
-          "id": "orn.coat",
-          "value": "stemma"
-        },
-        {
-          "id": "orn.tab",
-          "value": "tabula ansata"
-        },
-        {
-          "id": "orn.other",
-          "value": "altro"
+          "id": "ini-orn.braided",
+          "value": "a cappio intrecciato"
         },
         {
           "id": "ini-orn.zoomrp",
@@ -1044,6 +1144,58 @@
           "value": "altro"
         },
         {
+          "id": "ini-wat.split1",
+          "value": "fessa"
+        },
+        {
+          "id": "ini-wat.split2",
+          "value": "rifessa"
+        },
+        {
+          "id": "orn.clipeus",
+          "value": "clipeo"
+        },
+        {
+          "id": "orn.frame-arch",
+          "value": "cornice architettonica"
+        },
+        {
+          "id": "orn.frieze-swirl-w",
+          "value": "fregio a bianchi girari"
+        },
+        {
+          "id": "orn.frieze-swirl-w-fig",
+          "value": "fregio a bianchi girari figurato"
+        },
+        {
+          "id": "orn.frieze-swirl-w-hist",
+          "value": "fregio a bianchi girari istoriato"
+        },
+        {
+          "id": "orn.frieze-fig",
+          "value": "fregio figurato"
+        },
+        {
+          "id": "orn.frieze-hist",
+          "value": "fregio istoriato"
+        },
+        {
+          "id": "orn.frieze-orn",
+          "value": "fregio ornamentale"
+        },
+        {
+          "id": "orn.coat",
+          "value": "stemma"
+        },
+        {
+          "id": "orn.tab",
+          "value": "tabula ansata"
+        },
+        {
+          "id": "orn.other",
+          "value": "altro"
+        },
+        {
           "id": "par.run-heads",
           "value": "titoli correnti"
         },
@@ -1058,6 +1210,14 @@
         {
           "id": "par.cartulation",
           "value": "cartulazione"
+        },
+        {
+          "id": "par.call-dec",
+          "value": "richiami decorati"
+        },
+        {
+          "id": "par.call-fig",
+          "value": "richiami figurati"
         },
         {
           "id": "par.other",
@@ -1083,15 +1243,23 @@
       "entries": [
         {
           "id": "pag-inc",
-          "value": "typologies positions lineHeight"
+          "value": "positions lineHeight refSign"
+        },
+        {
+          "id": "pag-dec",
+          "value": "positions lineHeight refSign"
         },
         {
           "id": "ill",
-          "value": "lineHeight"
+          "value": "lineHeight refSign"
         },
         {
           "id": "orn",
-          "value": "subject textRelation lineHeight"
+          "value": "lineHeight refSign"
+        },
+        {
+          "id": "dia",
+          "value": "lineHeight refSign"
         },
         {
           "id": "ini-pla",
@@ -1099,23 +1267,19 @@
         },
         {
           "id": "ini-wat",
-          "value": "typologies subject textRelation"
+          "value": "subject textRelation"
         },
         {
           "id": "ini-orn",
           "value": "textRelation"
         },
         {
-          "id": "ini-fig",
-          "value": "typologies"
-        },
-        {
           "id": "par",
-          "value": "subject textRelation lineHeight"
+          "value": "textRelation lineHeight"
         },
         {
           "id": "wsp",
-          "value": "colors gildings typologies techniques subject textRelation tools lineHeight"
+          "value": "colors gildings typologies techniques subject textRelation tools lineHeight refSign"
         }
       ]
     },
@@ -1243,7 +1407,7 @@
         },
         {
           "id": "para",
-          "value": "segni paragrafematici"
+          "value": "segni peritestuali"
         },
         {
           "id": "title",
@@ -1386,32 +1550,7 @@
     },
     {
       "id": "cod-hand-subscription-languages@en",
-      "entries": [
-        {
-          "id": "ita",
-          "value": "italiano"
-        },
-        {
-          "id": "lat",
-          "value": "latino"
-        },
-        {
-          "id": "vlg-ita",
-          "value": "volgare (ita)"
-        },
-        {
-          "id": "lat-vlg",
-          "value": "latino+volgare"
-        },
-        {
-          "id": "grc",
-          "value": "greco"
-        },
-        {
-          "id": "other",
-          "value": "altro"
-        }
-      ]
+      "targetId": "cod-edit-languages"
     },
     {
       "id": "cod-hand-typologies@en",
@@ -1442,7 +1581,7 @@
         },
         {
           "id": "para",
-          "value": "segni paragrafematici"
+          "value": "segni peritestuali"
         },
         {
           "id": "title",
@@ -1463,15 +1602,11 @@
       ]
     },
     {
-      "id": "decorated-count-ids@en",
+      "id": "cod-labels-col-q-features@en",
       "entries": [
         {
-          "id": "rr",
-          "value": "righe"
-        },
-        {
-          "id": "ll",
-          "value": "linee"
+          "id": "quire-break",
+          "value": "cesura fasc."
         }
       ]
     },
@@ -1668,10 +1803,6 @@
         {
           "id": "other",
           "value": "altro"
-        },
-        {
-          "id": "-",
-          "value": "---"
         }
       ]
     },
@@ -1697,10 +1828,6 @@
         {
           "id": "other",
           "value": "altro"
-        },
-        {
-          "id": "-",
-          "value": "---"
         }
       ]
     },
@@ -1722,10 +1849,6 @@
         {
           "id": "other",
           "value": "altro"
-        },
-        {
-          "id": "-",
-          "value": "---"
         }
       ]
     },
@@ -1909,6 +2032,10 @@
       "id": "cod-unit-states@en",
       "entries": [
         {
+          "id": "s0",
+          "value": "---"
+        },
+        {
           "id": "s1",
           "value": "ottimo"
         },
@@ -1931,6 +2058,19 @@
       ]
     },
     {
+      "id": "decorated-count-ids@en",
+      "entries": [
+        {
+          "id": "rr",
+          "value": "righe"
+        },
+        {
+          "id": "ll",
+          "value": "linee"
+        }
+      ]
+    },
+    {
       "id": "doc-reference-types@en",
       "entries": [
         {
@@ -1938,20 +2078,20 @@
           "value": "---"
         },
         {
-          "id": "text",
-          "value": "testo"
+          "id": "biblio",
+          "value": "bibliography"
         },
         {
-          "id": "biblio",
-          "value": "bibliografia"
+          "id": "cite",
+          "value": "citation"
         },
         {
           "id": "ms",
-          "value": "manoscritto"
+          "value": "manuscript"
         },
         {
           "id": "arch",
-          "value": "documento arch."
+          "value": "archive doc."
         }
       ]
     },
@@ -2419,7 +2559,7 @@
         },
         {
           "id": "person:meeting:met",
-          "value": "persona: incontro:persona incontrata"
+          "value": "persona: incontro: persona incontrata"
         },
         {
           "id": "person:meeting:spectator",
