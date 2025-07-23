@@ -27,7 +27,7 @@ services:
 
   # Biblio API
   cadmus-biblio-api:
-    image: vedph2020/cadmus-biblio-api:7.0.0
+    image: vedph2020/cadmus-biblio-api:8.0.3
     container_name: cadmus-biblio-api
     ports:
       - 61691:8080
@@ -47,7 +47,7 @@ services:
 
   # Cadmus API
   cadmus-itinera-api:
-    image: vedph2020/cadmus-itinera-api:8.0.1
+    image: vedph2020/cadmus-itinera-api:9.0.2
     container_name: cadmus-itinera-api
     ports:
       - 5052:8080
