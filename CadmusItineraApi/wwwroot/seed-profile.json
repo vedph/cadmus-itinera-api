@@ -494,6 +494,10 @@
       "id": "cod-binding-board-materials@en",
       "entries": [
         {
+          "id": "-",
+          "value": "---"
+        },
+        {
           "id": "wood",
           "value": "legno"
         },
@@ -504,16 +508,16 @@
         {
           "id": "other",
           "value": "altro"
-        },
-        {
-          "id": "-",
-          "value": "---"
         }
       ]
     },
     {
       "id": "cod-binding-cover-materials@en",
       "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
         {
           "id": "skin",
           "value": "pelle"
@@ -541,10 +545,6 @@
         {
           "id": "other",
           "value": "altro"
-        },
-        {
-          "id": "-",
-          "value": "---"
         }
       ]
     },
@@ -593,6 +593,10 @@
     {
       "id": "cod-content-annotation-types@en",
       "entries": [
+        {
+          "id": "-",
+          "value": "---"
+        },
         {
           "id": "rubric",
           "value": "rubrica"
@@ -2078,20 +2082,20 @@
           "value": "---"
         },
         {
-          "id": "biblio",
-          "value": "bibliography"
+          "id": "text",
+          "value": "testo"
         },
         {
-          "id": "cite",
-          "value": "citation"
+          "id": "biblio",
+          "value": "bibliografia"
         },
         {
           "id": "ms",
-          "value": "manuscript"
+          "value": "manoscritto"
         },
         {
           "id": "arch",
-          "value": "archive doc."
+          "value": "documento arch."
         }
       ]
     },
