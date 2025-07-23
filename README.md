@@ -14,7 +14,9 @@ docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64,windows/a
 
 ## History
 
-- 2025-07-23: updated thesauri.
+- 2025-07-23:
+  - updated thesauri from codicology.
+  - added MUFI controller, its configuration in `Program.ConfigureAppServices`, and its database in `wwwroot`. 
 
 ### 9.0.2
 

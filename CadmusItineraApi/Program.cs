@@ -24,6 +24,9 @@ using Microsoft.AspNetCore.Builder;
 using Cadmus.Api.Config.Services;
 using Cadmus.Api.Config;
 using Cadmus.Itinera.Services;
+using Mufi.Core;
+using System.IO;
+using Mufi.LiteDB;
 
 namespace CadmusItineraApi;
 
@@ -60,6 +63,17 @@ public static class Program
 
         // previewer
         services.AddSingleton(p => ServiceConfigurator.GetPreviewer(p, config));
+
+        // MUFI
+        services.AddSingleton<IMufiRepository>(_ =>
+        {
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+            return new LiteDBMufiRepository(
+                new MufiRepositoryOptions
+                {
+                    Source = Path.Combine(path, "mufi.db")
+                });
+        });
     }
 
     /// <summary>
