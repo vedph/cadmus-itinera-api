@@ -7,12 +7,14 @@ This is the second iteration of Itinera and will replace the [old repository](ht
 ```bash
 docker buildx create --use
 
-docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64,windows/arm64 -t vedph2020/cadmus-itinera-api:9.0.2 -t vedph2020/cadmus-itinera-api:latest --push
+docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64,windows/arm64 -t vedph2020/cadmus-itinera-api:9.0.3 -t vedph2020/cadmus-itinera-api:latest --push
 ```
 
 (replace with the current version).
 
 ## History
+
+### 9.0.3
 
 - 2025-07-24: updated packages.
 - 2025-07-23:
