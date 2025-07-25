@@ -3409,27 +3409,6 @@
       ]
     },
     {
-      "id": "pin-link-settings@en",
-      "entries": [
-        {
-          "id": "switch-mode",
-          "value": "true"
-        }
-      ]
-    },
-    {
-      "id": "pin-link-settings_bio@en",
-      "targetId": "pin-link-settings"
-    },
-    {
-      "id": "pin-link-settings_ms@en",
-      "targetId": "pin-link-settings"
-    },
-    {
-      "id": "pin-link-settings_txt@en",
-      "targetId": "pin-link-settings"
-    },
-    {
       "id": "related-person-types@en",
       "entries": [
         {
