@@ -14,6 +14,10 @@ docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64,windows/a
 
 ## History
 
+- 2025-07-29:
+  - added role-dependent entries in model names thesaurus.
+  - added `other` entry to languages thesaurus.
+
 ### 9.0.3
 
 - 2025-07-24: updated packages.

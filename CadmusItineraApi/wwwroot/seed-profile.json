@@ -441,6 +441,18 @@
           "value": "events"
         },
         {
+          "id": "it.vedph.historical-events:bio",
+          "value": "bio events"
+        },
+        {
+          "id": "it.vedph.historical-events:ms",
+          "value": "ms events"
+        },
+        {
+          "id": "it.vedph.historical-events:txt",
+          "value": "work events"
+        },
+        {
           "id": "it.vedph.itinera.cod-loci",
           "value": "loci"
         },
@@ -487,6 +499,10 @@
         {
           "id": "it.vedph.note",
           "value": "note"
+        },
+        {
+          "id": "it.vedph.note:history",
+          "value": "history"
         }
       ]
     },
@@ -3090,6 +3106,10 @@
         {
           "id": "spa",
           "value": "spagnolo"
+        },
+        {
+          "id": "other",
+          "value": "altro" 
         }
       ]
     },
