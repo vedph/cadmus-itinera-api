@@ -12,7 +12,11 @@ docker buildx build . --platform linux/amd64,linux/arm64,windows/amd64,windows/a
 
 (replace with the current version).
 
+>Note: when developing, if you need to use bibliography API just run it from `CadmusBiblioApi\CadmusBiblioApi` with command `dotnet run`.
+
 ## History
+
+- 2025-08-06: updated packages.
 
 ### 9.0.4
 
